@@ -1,0 +1,2357 @@
+<!Docstring>
+<html>
+<head>
+<title>TAYLOR SWIFT</title>
+<!-- Old Icon
+<link rel = "icon" href = 
+"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.explicit.bing.net%2Fth%3Fid%3DOIP.fO-WPg5PI8o45njKNL5N_gHaJ3%26pid%3DApi&f=1" type = "image/x-icon" sizes = "32x32">-->
+<!-- New Icon-->
+<link rel = "icon" href = 
+"https://www.taylorswift.com/files/2022/08/favicon__1_-78x75.png" type = "image/x-icon" sizes = "32x32">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<!-- -->
+<!---->
+<style>
+.taylorswift:hover{
+-webkit-text-stroke:3px #ff6fff;
+color:transparent;
+transition:0.5s;
+}
+
+.backvideo{
+position:absolute;
+right:0;
+bottom:0;
+z-index:-1;
+}
+.Hero_container__HKtqF,.Hero_loadingContainer__NyS6p {
+    height: calc(100vh - 5em + 1px);
+    width: 100%;
+    display: flex;
+    position: relative
+}
+
+@media(max-width: 768px) {
+    .Hero_container__HKtqF,.Hero_loadingContainer__NyS6p {
+        height:calc(40vh - 5em)
+    }
+}
+
+.Hero_loadingContainer__NyS6p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--theme-color-2);
+    text-transform: uppercase
+}
+
+.Hero_loadingBar__SWLxf {
+    height: .25em;
+    background-color: var(--theme-color-2)
+}
+
+.Hero_imageButton__lFXXC {
+    background-color: transparent;
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-size: 1em;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative
+}
+.button,.anchor {
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                -ms-appearance: none;
+                appearance: none;
+                background-color: transparent;
+                border: 0;
+                cursor: pointer;
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -moz-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-align: center;
+                -webkit-align-items: center;
+                -moz-box-align: center;
+                -ms-flex-align: center;
+                align-items: center;
+                -webkit-box-pack: center;
+                -webkit-justify-content: center;
+                -moz-box-pack: center;
+                -ms-flex-pack: center;
+                justify-content: center;
+                width: 4em;
+                height: 4em;
+                font-size: 1em;
+                text-decoration: none;
+                color: inherit
+            }
+
+.Hero_imageButton__lFXXC,.Hero_imageButton__lFXXC img {
+    padding: 0;
+    margin: 0;
+    display: block;
+    height: 100%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none
+}
+
+.Hero_imageButton__lFXXC img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    pointer-events: none
+}
+@media (min-aspect-ratio:16/9){
+.backvideo{
+width:100%;
+height:auto;
+}
+}
+@media (max-aspect-ratio:16/9){
+.backvideo{
+width:auto;
+height:100%;
+}
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+.gallery{
+margin:10px 50px;
+}
+.gallery img{
+width:230px;
+padding:5px;
+filter:grayscale(100%);
+transition:1s;
+}
+.gallery img:hover{
+filter:grayscale(0%);
+transform :scale(1.1);
+width:40%;
+height:auto;
+}
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+    .fa {
+  padding: 10px;
+  font-size: 10px;
+  width: 10px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-globe{
+     background: #ffffff;
+  color: black;
+  font-size:10px;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.fa-youtube-play {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.fa-spotify{
+    color:#38f335;
+    font-size: 30px;
+    width: 10px;
+    padding: 5px;
+}
+.fa-soundcloud{
+    color:red;
+    font-size:30px;
+    width:10px;
+    /*padding-left: 12px;
+    padding-bottom:-20px;*/
+    padding:10px;
+}
+.fa-apple{
+    color:silver;
+    font-size:30px;
+    width:10px;
+    padding:20px;
+    /*padding-right:10px;
+    padding-left: 12px;
+    padding-bottom:-20px;*/
+}
+.fa-amazon{
+    font-size:30px;
+    width:10px;
+    padding:3px;
+    /*padding-right:10px;
+    padding-left: 12px;
+    padding-bottom:-20px;*/
+}
+.youtube-music{
+    font-size:25px;
+    width:30px;
+    padding:10px;
+    /*padding-right:10px;
+    padding-left: 12px;
+    padding-bottom:-20px;*/
+}
+.fa-imdb{
+     font-size:25px;
+    width:3px;
+    padding:1px;
+    /*padding-right:10px;
+    padding-left: 12px;
+    padding-bottom:-20px;*/
+    
+}
+.fa-arrow-up{
+    font-size:25px;
+    width:1px;
+    padding:0px;
+    /*padding-right:10px;
+    padding-left: 12px;
+    padding-bottom:-20px;*/
+}
+/*
+.fa-wikipedia-w{
+    background:#ffffff;
+}
+*/
+.fa-user-circle{
+    font-size:25px;
+}
+.ribbon2 {
+   position: static;
+   top: -16px;
+   right: -760px;
+   left:-1px;
+   bottom: -1px;
+   height:120px;
+   padding: 10px;
+  font-size: 1px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10%;
+}
+/*
+img {
+    width: 100%;
+    height: auto;
+}*/
+footer {
+       margin: 20px auto;
+       text-align: center;
+    }
+.ribbon {
+   position: relative;
+   top: -16px;
+   right: -1111px;
+   width: 50px;
+   border-radius: 10%;
+}
+
+
+</style>
+ <script>
+     function todayDate(){
+        var d = new Date();
+        var n = d.getFullYear() + "  ";
+        return document.getElementById("date").innerHTML = n;
+      }
+   </script>
+<!---->
+<body style="background-color:#FFC0CB;">
+<div >
+<!--<video autoplay muted loop plays-inline class="backvideo">
+  <source src="https://cache.umusic.com/_sites/_halo/zrskt/nwff/mdan.mp4" data-media="(max-width: 600px)" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+-->
+<div >
+<h1 align="center" style="color:#FF69B4;" class="taylorswift"><font size="200"><b><i>TAYLOR SWIFT</i></b></font></h1>
+<center><img src="https://www.bing.com/th?id=ALSTU66423A947245D29811EF564426F7F41714F1FF79835883828EC73763DC333197&w=384&h=228&rs=2&o=6&oif=webp&dpr=1.5&pid=SANGAM" alt="TAYLOR SWIFT"></center>
+</div>
+<center>
+<br>
+<center><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Taylor_Swift_signature.svg/225px-Taylor_Swift_signature.svg.png" alt="TAYLOR SWIFT"></center>
+<div>
+<pre>Taylor Swift Official Page:<a href="https://www.taylorswift.com/"><bold><i>TAYLOR SWIFT OFFICIAL PAGE</bold></i></a></pre>
+</div>
+</center>
+
+<font size="5">
+<div>
+<table>
+    <nav>
+    <tr><td><a href="#About"> About Taylor Swift</a></td></tr>
+    <tr><td><a href="#Albums"> Taylor Swift Albums </a><td></tr>
+    <tr><td><a href="#spotifytracks"> Taylor Swift Spotify Tracks</a><td></tr>
+    <tr><td><a href="#images"> Taylor Swift Images</a><td></tr>
+    <tr><td><a href="#myfavouritesfromeachalbum"> My Favourites From Taylor Swift Each Albums </a><td></tr>
+    <tr><td><a href="#FavouriteLyrics"> My Taylor Swift Favourite Lyrics</a><td></tr>
+    <tr><td><a href="#down"> Go Down</a><td></tr>
+    </nav>
+<table>
+</div>
+<div>
+<pre>
+<p id="About">About Taylor Swift<p>
+Full Name:<i>"Taylor Alison Swift"</i>
+Other Name:<i> Nils Sjöberg</i>
+Date Of Birth: Dec 13, 1989 (age 33)
+Height: 5 feet 10 inches (1.78 m)
+Occupation: Singer-songwriter, Producer, Director, Actress, Businesswoman
+</pre>
+</div>
+
+
+<div>
+<pre>
+<p id="Albums">Albums: </p>
+1.<a href="https://en.wikipedia.org/wiki/Taylor_Swift_(album)" target="_blank">Taylor Swift(2006)</a>
+
+<img src="https://upload.wikimedia.org/wikipedia/en/1/1f/Taylor_Swift_-_Taylor_Swift.png">
+<br>
+2.<a href="https://en.wikipedia.org/wiki/Fearless_(Taylor_Swift_album)" target="_blank">Fearless (2008)</a>
+
+<img src="https://upload.wikimedia.org/wikipedia/en/8/86/Taylor_Swift_-_Fearless.png">
+<br>
+3.<a href="https://en.wikipedia.org/wiki/Speak_Now" target="_blank">Speak Now (2010)</a>
+
+<img src="https://upload.wikimedia.org/wikipedia/en/8/8f/Taylor_Swift_-_Speak_Now_cover.png">
+<br>
+4.<a href="https://en.wikipedia.org/wiki/Red_(Taylor_Swift_album)" target="_blank">Red (2012)</a>
+
+<img src="https://upload.wikimedia.org/wikipedia/en/e/e8/Taylor_Swift_-_Red.png">
+<br>
+5.<a href="https://en.wikipedia.org/wiki/1989_(Taylor_Swift_album)" target="_blank">1989 (2014)</a>
+
+<img src="https://upload.wikimedia.org/wikipedia/en/f/f6/Taylor_Swift_-_1989.png">
+<br>
+6.<a href="https://en.wikipedia.org/wiki/Reputation_(album)" target="_blank">Reputation (2017)</a>
+
+<img src="https://upload.wikimedia.org/wikipedia/en/f/f2/Taylor_Swift_-_Reputation.png">
+<br>
+7.<a href="https://en.wikipedia.org/wiki/Lover_(album)" target="_blank">Lover (2019)</a>
+
+<img src="https://upload.wikimedia.org/wikipedia/en/c/cd/Taylor_Swift_-_Lover.png">
+<br>
+8.<a href="https://en.wikipedia.org/wiki/Folklore_(Taylor_Swift_album)" target="_blank">Folklore (2020)</a>
+
+<img src="https://upload.wikimedia.org/wikipedia/en/f/f8/Taylor_Swift_-_Folklore.png">
+<br>
+9.<a href="https://en.wikipedia.org/wiki/Evermore_(Taylor_Swift_album)" target="_blank">Evermore (2020)</a>
+
+<img src="https://upload.wikimedia.org/wikipedia/en/0/0a/Taylor_Swift_-_Evermore.png">
+<br>
+10.<a href="https://en.wikipedia.org/wiki/Midnights" target="_blank">Midnights (2022)</a>
+
+<img src="https://upload.wikimedia.org/wikipedia/en/9/9f/Midnights_-_Taylor_Swift.png">
+<br>
+
+
+</pre>
+</font>
+</div>
+<div style="background-color:#FFC0CB;">
+<center><h1 id="myfavouritesfromeachalbum"><bold><i>MY FAVOURITES FROM EACH ALBUM</i></bold></h1></center></div>
+<br>
+<h2><bold><i><pre>
+<div>
+1.Taylor Swift (2006) --> ONE
+
+    1.OUR SONG 
+
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.Zr7V7CtugVuTcMIls0q0cgHaHa%26pid%3DApi&f=1&ipt=38c4925469c0fa48e1d119b50f6c791cb87fbba4f1b7b21708fc3b07829afc18&ipo=images">
+
+        <audio controls>
+            <source src="https://upload.wikimedia.org/wikipedia/en/6/6c/Taylor_Swift_-_Our_Song.ogg" type="audio/ogg">
+        </audio>
+        <iframe width="480" height="360" src="https://www.youtube.com/embed/Jb2stN7kH28" title="Taylor Swift - Our Song" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <!--<a href="https://upload.wikimedia.org/wikipedia/en/6/6c/Taylor_Swift_-_Our_Song.ogg" target="_blank">SAMPLE AUIDO : Our Song</a>-->
+
+        <a href="https://www.youtube.com/watch?v=Jb2stN7kH28" >LISTEN ON YOUTUBE : OUR SONG</a>
+    
+
+2.Fearless (2008) --> ONE
+
+    1.MR PERFECTLY FINE
+
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.I0dENatZmcX75DbY6HXJcQHaEK%26pid%3DApi&f=1&ipt=4205947ba30e5eca6726b04dd061abf50ca00417537afc4b7218833124cda230&ipo=images">
+
+	  <audio controls>
+            <source src="https://upload.wikimedia.org/wikipedia/en/8/8a/Mr._Perfectly_Fine_by_Taylor_Swift.ogg" target="_blank" type="audio/ogg">
+        </audio>
+
+	  <iframe width="640" height="360" src="https://www.youtube.com/embed/rFjJs6ZjPe8" title="Taylor Swift - Mr. Perfectly Fine (Taylor’s Version) (From The Vault) (Lyric Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	  <!--
+        <a href="https://upload.wikimedia.org/wikipedia/en/8/8a/Mr._Perfectly_Fine_by_Taylor_Swift.ogg" target="_blank">SAMPLE AUIDO : Mr Perfectly Fine</a>-->
+
+        <a href="https://www.youtube.com/watch?v=rFjJs6ZjPe8" >LISTEN ON YOUTUBE : MR PERFECTLY FINE</a>
+
+3.Speak Now (2010) --> NONE
+
+4.Red (2012) --> FOUR
+
+    1.I KNEW YOU WERE TROUBLE
+
+        <img src="https://upload.wikimedia.org/wikipedia/en/7/70/I_Knew_You_Were_Trouble.png">
+
+	  <audio controls>
+            <source src="https://upload.wikimedia.org/wikipedia/en/1/16/IKnewYouWereTrouble.ogg" target="_blank" type="audio/ogg">
+        </audio>
+
+        <!--<a href="https://upload.wikimedia.org/wikipedia/en/1/16/IKnewYouWereTrouble.ogg" target="_blank">SAMPLE AUIDO : I Knew You Were Trouble</a>-->
+	  
+	  <iframe width="640" height="360" src="https://www.youtube.com/embed/vNoKguSdy4Y" title="Taylor Swift - I Knew You Were Trouble" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        <a href="https://www.youtube.com/watch?v=vNoKguSdy4Y" >LISTEN ON YOUTUBE : I KNEW YOU WERE TROUBLE</a>
+
+    2.22
+
+        <img src="https://upload.wikimedia.org/wikipedia/en/d/d4/Taylor_Swift_-_22.png">
+        
+	  <iframe width="640" height="360" src="https://www.youtube.com/embed/AgFeZr5ptV8" title="Taylor Swift - 22" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        <a href="https://www.youtube.com/embed/AgFeZr5ptV8">LISTEN ON YOUTUBE : 22</a>
+
+    3.RED 
+
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.vqbXhvBh2OdE-zIjC-TUtQHaHa%26pid%3DApi&f=1&ipt=e66be122f94520634c7467f6cd5cc49b777aebd83948c474b73106bfe48e5d05&ipo=images">
+	   
+	  <audio controls>
+            <source src="https://upload.wikimedia.org/wikipedia/en/3/3c/Taylor_Swift_-_Red_song_sample.ogg" target="_blank" type="audio/ogg">
+        </audio>
+
+        <!--<a href="https://upload.wikimedia.org/wikipedia/en/3/3c/Taylor_Swift_-_Red_song_sample.ogg" target="_blank">SAMPLE AUIDO : Red</a>-->
+
+	  <iframe width="640" height="360" src="https://www.youtube.com/embed/Zlot0i3Zykw" title="Taylor Swift - Red" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        <a href="https://www.youtube.com/watch?v=Zlot0i3Zykw" >LISTEN ON YOUTUBE : RED</a>
+
+    4.WE ARE NEVER EVER GETTING BACK TOGETHER
+
+        <img src="https://upload.wikimedia.org/wikipedia/en/4/40/We_Are_Never_Ever_Getting_Back_Together.png">
+	  
+	  <audio controls>
+            <source src="https://upload.wikimedia.org/wikipedia/en/6/67/We_Are_Never_Ever_Getting_Back_Together.ogg" target="_blank" type="audio/ogg">
+        </audio>
+
+        <!--<a href="https://upload.wikimedia.org/wikipedia/en/6/67/We_Are_Never_Ever_Getting_Back_Together.ogg" target="_blank">SAMPLE AUIDO : We Are Never Ever Getting Back Together</a>-->
+   	  
+	  <iframe width="640" height="360" src="https://www.youtube.com/embed/WA4iX5D9Z64" title="Taylor Swift - We Are Never Ever Getting Back Together" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        <a href="https://www.youtube.com/watch?v=WA4iX5D9Z64" >LISTEN ON YOUTUBE : WE ARE NEVER EVER GETTING BACK TOGETHER</a>
+
+
+
+5.1989 (2014) --> SIX
+
+    1.BLANK SPACE
+
+        <img src="https://upload.wikimedia.org/wikipedia/en/7/7c/Taylor_Swift_-_Blank_Space_%28Official_Single_Cover%29.png">
+	
+	  <audio controls>
+            <source src="https://upload.wikimedia.org/wikipedia/en/7/7d/Blank_Space.ogg" target="_blank" type="audio/ogg">
+        </audio>
+		<!--
+        <a href="https://upload.wikimedia.org/wikipedia/en/7/7d/Blank_Space.ogg" target="_blank">SAMPLE AUIDO : BLANK SPACE</a>-->
+
+        
+	<iframe width="573" height="322" src="https://www.youtube.com/embed/e-ORhEE9VVg" title="Taylor Swift - Blank Space" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	<a href="https://www.youtube.com/watch?v=e-ORhEE9VVg">LISTEN ON YOUTUBE : BLANK SPACE</a>
+
+    2.SHAKE IT OFF
+
+        <img src="https://upload.wikimedia.org/wikipedia/en/c/c4/Taylor_Swift_-_Shake_It_Off.png">
+	  
+	  <audio controls>
+            <source src="https://upload.wikimedia.org/wikipedia/en/f/f9/Taylor_Swift_-_Shake_It_Off.ogg" target="_blank" type="audio/ogg">
+        </audio>
+		<!--
+        <a href="https://upload.wikimedia.org/wikipedia/en/f/f9/Taylor_Swift_-_Shake_It_Off.ogg" target="_blank">SAMPLE AUIDO: SHAKE IT OFF</a>-->
+
+        <iframe width="573" height="322" src="https://www.youtube.com/embed/nfWlot6h_JM" title="Taylor Swift - Shake It Off" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+	<a href="https://www.youtube.com/watch?v=nfWlot6h_JM">LISTEN ON YOUTUBE : SHAKE IT OFF</a>
+
+    3.BAD BLOOD
+
+        <img src="https://upload.wikimedia.org/wikipedia/en/9/9b/Taylor_Swift_Feat._Kendrick_Lamar_-_Bad_Blood_%28Official_Single_Cover%29.png">
+
+        <audio controls>
+            <source src="https://upload.wikimedia.org/wikipedia/en/7/7c/Bad_Blood.ogg" target="_blank" type="audio/ogg">
+        </audio>
+		<!--<a href="https://upload.wikimedia.org/wikipedia/en/7/7c/Bad_Blood.ogg" target="_blank">SAMPLE AUIDO : BAD BLOOD</a>-->
+
+        <iframe width="573" height="322" src="https://www.youtube.com/embed/QcIy9NiNbmo" title="Taylor Swift - Bad Blood ft. Kendrick Lamar" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+	  <a href="https://www.youtube.com/watch?v=QcIy9NiNbmo">LISTEN ON YOUTUBE : BAD BLOOD</a>
+  
+     4.THIS LOVE
+
+        <img src="https://upload.wikimedia.org/wikipedia/en/b/be/This_Love_%28Taylor%27s_Version%29.png">
+
+        <iframe width="573" height="322" src="https://www.youtube.com/embed/mvxQYPR4lmU" title="Taylor Swift - This Love (Taylor's Version) (Lyric Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        <a href="https://www.youtube.com/watch?v=mvxQYPR4lmU">LISTEN ON YOUTUBE : THIS LOVE</a>
+     
+     5.WILDEST DREAMS
+
+        <img src="https://upload.wikimedia.org/wikipedia/en/d/de/Taylor_Swift_-_Wildest_Dreams_%28Official_Single_Cover%29.png">
+
+        <audio controls>
+            <source src="https://upload.wikimedia.org/wikipedia/en/1/17/Taylor_Swift_-_Wildest_Dreams.ogg" target="_blank" type="audio/ogg">
+        </audio>
+		<!--<a href="https://upload.wikimedia.org/wikipedia/en/1/17/Taylor_Swift_-_Wildest_Dreams.ogg" target="_blank">SAMPLE AUIDO : WILDEST DREAMS</a>-->
+
+        <iframe width="573" height="322" src="https://www.youtube.com/embed/IdneKLhsWOQ" title="Taylor Swift - Wildest Dreams" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+	<a href="https://www.youtube.com/watch?v=IdneKLhsWOQ">LISTEN ON YOUTUBE : WILDEST DREAMS</a>
+    
+    6.STYLE 
+
+        <img src="https://upload.wikimedia.org/wikipedia/en/d/d4/Taylor_Swift_-_Style_%28Official_Single_Cover%29.png">
+
+        <audio controls>
+            <source src="https://upload.wikimedia.org/wikipedia/en/3/3c/Taylor_Swift_-_Style_sample.ogg" target="_blank" type="audio/ogg">
+        </audio>
+		<!--<a href="https://upload.wikimedia.org/wikipedia/en/3/3c/Taylor_Swift_-_Style_sample.ogg">SAMPLE AUIDO : STYLE</a>-->
+
+        <iframe width="640" height="360" src="https://www.youtube.com/embed/-CmadmM5cOk" title="Taylor Swift - Style" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+	  <a href="https://www.youtube.com/watch?v=-CmadmM5cOk">LISTEN ON YOUTUBE : STYLE</a>
+    
+
+
+6.Reputation (2017) --> SIX
+
+    1....READY FOR IT?
+
+        <img src="https://upload.wikimedia.org/wikipedia/en/2/27/...Ready_for_It%3F_-_Taylor_Swift.png">
+
+        <audio controls>
+            <source src="https://upload.wikimedia.org/wikipedia/en/7/7a/Ready_For_It_%28Taylor_Swift_song%29_sample.ogg" target="_blank" type="audio/ogg">
+        </audio>
+		<!--<a href="https://upload.wikimedia.org/wikipedia/en/7/7a/Ready_For_It_%28Taylor_Swift_song%29_sample.ogg" target="_blank">SAMPLE -->AUIDO:...READY FOR IT?</a>
+
+        <iframe width="573" height="322" src="https://www.youtube.com/embed/wIft-t-MQuE" title="Taylor Swift - …Ready For It?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+	<a href="https://www.youtube.com/watch?v=wIft-t-MQuE">LISTEN ON YOUTUBE : ...READY FOR IT? <a>
+
+    2.DELICATE
+
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.U2Ew-9D-04RSHdIT2z_xVAHaEK%26pid%3DApi&f=1">
+
+        <audio controls>
+            <source src="https://upload.wikimedia.org/wikipedia/en/5/5b/Delicate_music_Sample%2C_2018.ogg" target="_blank" type="audio/ogg">
+        </audio>
+		<!--<a href="https://upload.wikimedia.org/wikipedia/en/5/5b/Delicate_music_Sample%2C_2018.ogg" target="_blank">SAMPLE AUIDO: DELICATE</a>-->
+
+        <iframe width="573" height="322" src="https://www.youtube.com/embed/tCXGJQYZ9JA" title="Taylor Swift - Delicate" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	  
+		<a href="https://www.youtube.com/watch?v=tCXGJQYZ9JA">LISTEN ON YOUTUBE : DELICATE</a>
+        
+    3.LOOK WHAT YOU MADE ME DO
+
+        <img src="https://upload.wikimedia.org/wikipedia/en/6/68/Taylor_Swift_-_Look_What_You_Made_Me_Do.png">
+
+        <audio controls>
+            <source src="https://upload.wikimedia.org/wikipedia/en/8/8e/Look_What_You_Made_Me_Do_by_Taylor_Swift.mp3" target="_blank" type="audio/ogg">
+        </audio>
+		<!--<a href="https://upload.wikimedia.org/wikipedia/en/8/8e/Look_What_You_Made_Me_Do_by_Taylor_Swift.mp3" target="_blank">SAMPLE AUIDO: LOOK YOU MADE ME DO</a>-->
+
+        <iframe width="573" height="322" src="https://www.youtube.com/embed/3tmd-ClpJxA" title="Taylor Swift - Look What You Made Me Do" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+	<a href="https://www.youtube.com/watch?v=3tmd-ClpJxA">LISTEN ON YOUTUBE : LOOK WHAT YOU MADE ME DO</a>
+    
+    4.DON'T BLAME ME
+
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.T5mS43884_rmYko_5tldQQHaHa%26pid%3DApi&f=1&ipt=0f07e86c8cb2c4b65fd149444726e1d3340d5742d0d60c0e4e76f67257bfc175&ipo=images">
+
+        <iframe width="573" height="343" src="https://www.youtube.com/embed/kRJKB291Z1g" title="Don’t Blame Me" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+	<a href="https://www.youtube.com/watch?v=kRJKB291Z1g">LISTEN ON YOUTUBE : DON'T BLAME ME</a>
+    
+    5.GORGEOUS
+
+        
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.5uLFtS476J4dsIdET_LUzQHaEK%26pid%3DApi&f=1&ipt=e11120fcdd2d16abd86e4c376fd7a23c799cb81c2ef847b87760454ecff55b93&ipo=images">
+
+        <iframe width="573" height="322" src="https://www.youtube.com/embed/EUoe7cf0HYw" title="Taylor Swift - Gorgeous (Lyric Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+	<a href="https://www.youtube.com/watch?v=EUoe7cf0HYw">LISTEN ON YOUTUBE : GORGEOUS</a>
+
+    6.ENDGAME
+
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.kGQInuOduvpYvcI6MS7_ewHaDh%26pid%3DApi&f=1&ipt=7420b62df0dafa28ef9d08e622860c34cee0e30b194b3aa235af8d122a6e81d4&ipo=images"/>
+
+        <audio controls>
+            <source src="https://upload.wikimedia.org/wikipedia/en/e/e5/End_Game_%28song_sample%29.ogg" target="_blank" type="audio/ogg">
+        </audio>
+		<!--<a href="https://upload.wikimedia.org/wikipedia/en/e/e5/End_Game_%28song_sample%29.ogg"target="_blank">SAMPLE AUIDO: ENDGAME</a>-->
+
+        <iframe width="573" height="322" src="https://www.youtube.com/embed/dfnCAmr569k" title="Taylor Swift - End Game ft. Ed Sheeran, Future" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+	   <a href="https://www.youtube.com/watch?v=dfnCAmr569k">LISTEN ON YOUTUBE : ENDGAME</a>
+
+7.LOVER (2019) --> ELEVEN
+
+    1.I FORGOT THAT YOU EXISTED
+
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.tyI0L_--asv6znNykK_L8QHaHa%26pid%3DApi&f=1">
+
+        <iframe width="573" height="322" src="https://www.youtube.com/embed/p1cEvNn88jM" title="Taylor Swift - I Forgot That You Existed (Official Audio)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+	<a href="https://www.youtube.com/watch?v=p1cEvNn88jM">LISTEN ON YOUTUBE : I FORGOT THAT YOU EXISTED</a>
+
+    2.CRUEL SUMMER
+
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.P0ShabMrOpG6TnFCl4Yg3AHaEK%26pid%3DApi&f=1">
+
+        <audio controls>
+            <source src="https://upload.wikimedia.org/wikipedia/en/4/45/Taylor_Swift_-_Cruel_Summer_song_sample.ogg" target="_blank" type="audio/ogg">
+        </audio>
+		<!--<a href="https://upload.wikimedia.org/wikipedia/en/4/45/Taylor_Swift_-_Cruel_Summer_song_sample.ogg" target="_blank">SAMPLE AUIDO: CRUEL SUMMER</a>-->
+
+        <iframe width="573" height="322" src="https://www.youtube.com/embed/ic8j13piAhQ" title="Taylor Swift - Cruel Summer (Official Audio)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+	<a href="https://www.youtube.com/watch?v=ic8j13piAhQ">LISTEN ON YOUTUBE : CRUEL SUMMER</a>
+
+    3.LOVER
+
+        <img src="https://upload.wikimedia.org/wikipedia/en/c/c6/Taylor_Swift_feat._Shawn_Mendes_-_Lover_%28Remix%29.png">
+
+
+        <audio controls>
+            <source src="https://upload.wikimedia.org/wikipedia/en/2/2e/Lover_by_Taylor_Swift.mp3" target="_blank" type="audio/mp3">
+        </audio>
+		<a href="https://upload.wikimedia.org/wikipedia/en/2/2e/Lover_by_Taylor_Swift.mp3" target="_blank">SAMPLE AUIDO: LOVER</a>
+
+        <iframe width="573" height="322" src="https://www.youtube.com/embed/-BjZmE2gtdo" title="Taylor Swift - Lover" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+	  <a href="https://www.youtube.com/watch?v=-BjZmE2gtdo">LISTEN ON YOUTUBE : LOVER</a>
+
+    4.THE MAN
+
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.9Yhrq3W3nYsRHcqfMW8TXQHaFj%26pid%3DApi&f=1">
+        
+        <iframe width="573" height="322" src="https://www.youtube.com/embed/AqAJLh9wuZ0" title="Taylor Swift - The Man (Official Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+	  <a href="https://www.youtube.com/watch?v=AqAJLh9wuZ0" target="_blank">LISTEN ON YOUTUBE : THE MAN</a>
+
+    5.Miss Americana & the Heartbreak Prince
+    
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.gs4oGaz6ZL7YIPGXUPObCwHaHa%26pid%3DApi&f=1">
+
+        <iframe width="573" height="322" src="https://www.youtube.com/embed/Kwf7P2GNAVw" title="Taylor Swift - Miss Americana & The Heartbreak Prince (Official Audio)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+	  <a href="https://www.youtube.com/watch?v=Kwf7P2GNAVw">LISTEN ON YOUTUBE : Miss Americana & the Heartbreak Prince</a>    
+
+    6.LONDON BOY
+        
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.yfWOFwn9WWSn5WjDl5WznwHaEK%26pid%3DApi&f=1">
+
+        <iframe width="573" height="322" src="https://www.youtube.com/embed/VsKoOH6DVys" title="Taylor Swift - London Boy (Official Audio)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+	  <a href="https://www.youtube.com/watch?v=VsKoOH6DVys">LISTEN ON YOUTUBE : LONDON BOY</a>
+
+    7.You Need to Calm Down
+
+        <img src="https://upload.wikimedia.org/wikipedia/en/2/27/Taylor_Swift_-_You_Need_to_Calm_Down.png">
+
+        <audio controls>
+            <source src="https://upload.wikimedia.org/wikipedia/en/3/30/You_Need_to_Calm_Down_by_Taylor_Swift.mp3" target="_blank" type="audio/mp3">
+        </audio>
+		<!--<a href="https://upload.wikimedia.org/wikipedia/en/3/30/You_Need_to_Calm_Down_by_Taylor_Swift.mp3" target="_blank">SAMPLE AUIDO: You Need to Calm Down</a>-->
+
+        <iframe width="573" height="322" src="https://www.youtube.com/embed/Dkk9gvTmCXY" title="Taylor Swift - You Need To Calm Down" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	
+	   <a href="https://www.youtube.com/watch?v=Dkk9gvTmCXY">LISTEN ON YOUTUBE : You Need to Calm Down</a>
+
+    8.ME!
+
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.GwtWrARdrZnoWxumm7T77wHaI_%26pid%3DApi&f=1">
+
+        <iframe width="640" height="360" src="https://www.youtube.com/embed/FuXNumBwDOM" title="Taylor Swift - ME! (feat. Brendon Urie of Panic! At The Disco) ft. Brendon Urie" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+	  <a href="https://www.youtube.com/watch?v=FuXNumBwDOM">LISTEN ON YOUTUBE : ME!</a>
+    
+    9.IT'S NICE TO HAVE A FRIEND
+
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.EvcOem_nHuswFFVr93js3AHaHa%26pid%3DApi&f=1&ipt=3d99a06a93f02a751c87360bd47e8083f26e954d6abfa34c9e1374ef3a5eea85&ipo=images">
+        
+        <iframe width="573" height="322" src="https://www.youtube.com/embed/eaP1VswBF28" title="Taylor Swift - It’s Nice To Have A Friend (Official Audio)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+	  <a href="https://www.youtube.com/watch?v=eaP1VswBF28">LISTEN ON YOUTUBE : IT'S NICE TO HAVE A FRIEND</a>
+
+    10.PAPER RINGS
+
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.hZJkm5shgoQmqd69_ON4xQHaHa%26pid%3DApi&f=1&ipt=04118d069cd95748f697f72a68c90ad60bdfc430cf310e8533895208c7b6600a&ipo=images">
+	<audio controls>
+            <source src="https://upload.wikimedia.org/wikipedia/en/5/58/Paper_Rings_by_Taylor_Swift_%28sample%29.ogg" target="_blank" type="audio/mp3">
+        </audio>
+		<!--<a href="https://upload.wikimedia.org/wikipedia/en/5/58/Paper_Rings_by_Taylor_Swift_%28sample%29.ogg" target="_blank">SAMPLE AUIDO: You Need to Calm Down</a>-->
+
+        <iframe width="640" height="360" src="https://www.youtube.com/embed/8zdg-pDF10g" title="Taylor Swift - Paper Rings (Official Audio)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+	  <a href="https://www.youtube.com/watch?v=8zdg-pDF10g">LISTEN ON YOUTUBE : PAPER RINGS</a>
+
+    <P id="DEATH BY THOUSAND CUTS">11.DEATH BY THOUSAND CUTS</P>
+
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.explicit.bing.net%2Fth%3Fid%3DOIP.oWN5ev0pPtjhKnsBFriJOwHaEK%26pid%3DApi&f=1&ipt=c0ab380b52674aa1f83b421ae660a43fda17e83285a64c9c1cea0e3ece413fee&ipo=images">
+
+        <iframe width="640" height="360" src="https://www.youtube.com/embed/GTEFSuFfgnU" title="Taylor Swift - Death By A Thousand Cuts (Official Audio)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+	  <a href="https://www.youtube.com/watch?v=GTEFSuFfgnU">LISTEN ON YOUTUBE : DEATH BY THOUSAND CUTS</a>
+
+8.Folklore (2020) --> FIVE
+
+    1.THE 1
+        
+        <img src="https://th.bing.com/th/id/OIP.8p0CVIWJEzICGmq_TRve-AHaEo?w=203&h=127&c=7&r=0&o=5&dpr=1.5&pid=1.7">
+
+        <audio controls>
+            <source src="https://upload.wikimedia.org/wikipedia/en/0/08/The_1_by_Taylor_Swift.ogg" target="_blank" type="audio/ogg">
+        </audio>
+		<!--<a href="https://upload.wikimedia.org/wikipedia/en/0/08/The_1_by_Taylor_Swift.ogg" target="_blank">SAMPLE AUIDO: THE 1</a>-->
+
+        <iframe width="640" height="360" src="https://www.youtube.com/embed/KsZ6tROaVOQ" title="Taylor Swift - the 1 (Official Lyric Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	
+	 <a href="https://www.youtube.com/watch?v=KsZ6tROaVOQ">LISTEN ON YOUTUBE : THE 1</a>
+    
+    2.Cardigan
+        
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.H8Yea6QTpdWBJ9VBMELzmAHaEd%26pid%3DApi&f=1">
+
+        <audio controls>
+            <source src="https://upload.wikimedia.org/wikipedia/en/8/86/Cardigan_by_Taylor_Swift.ogg" target="_blank" type="audio/ogg">
+        </audio>
+		<!--<a href="https://upload.wikimedia.org/wikipedia/en/8/86/Cardigan_by_Taylor_Swift.ogg" target="_blank">SAMPLE AUIDO: Cardigan</a>-->
+
+        <iframe width="640" height="360" src="https://www.youtube.com/embed/K-a8s8OLBSE" title="Taylor Swift - cardigan (Official Music Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+	  <a href="https://www.youtube.com/watch?v=K-a8s8OLBSE">LISTEN ON YOUTUBE : Cardigan</a>
+    
+    3.Exile
+        
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.1LqgdOOsBGJHkgc6qCZggAHaE7%26pid%3DApi&f=1">
+
+        <audio controls>
+            <source src="https://upload.wikimedia.org/wikipedia/en/1/1e/Exile_by_Taylor_Swift.ogg" target="_blank" type="audio/ogg">
+        </audio>
+		<!--<a href="https://upload.wikimedia.org/wikipedia/en/1/1e/Exile_by_Taylor_Swift.ogg" target="_blank">SAMPLE AUIDO: Exile</a>-->
+
+        <iframe width="640" height="360" src="https://www.youtube.com/embed/osdoLjUNFnA" title="Taylor Swift – exile (feat. Bon Iver) (Official Lyric Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+         <a href="https://www.youtube.com/watch?v=osdoLjUNFnA">LISTEN ON YOUTUBE : Exile</a>
+
+    4.August
+        
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.WlECYdwAPqVQTT5LYprRVQHaNJ%26pid%3DApi&f=1">
+
+        <audio controls>
+            <source src="https://upload.wikimedia.org/wikipedia/en/4/4b/August_by_Taylor_Swift_%28song_sample%29.ogg" target="_blank" type="audio/ogg">
+        </audio>
+		<!--<a href="https://upload.wikimedia.org/wikipedia/en/4/4b/August_by_Taylor_Swift_%28song_sample%29.ogg" target="_blank">SAMPLE AUIDO: August</a>-->
+
+        <iframe width="640" height="360" src="https://www.youtube.com/embed/nn_0zPAfyo8" title="Taylor Swift – august (Official Lyric Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+	  <a href="https://www.youtube.com/watch?v=nn_0zPAfyo8">LISTEN ON YOUTUBE : August</a>
+
+    5.The Lakes
+        
+        <img src="https://upload.wikimedia.org/wikipedia/en/a/a2/The_Lakes_%28Original_Version%29_-_Taylor_Swift.png">
+
+        <audio controls>
+            <source src="https://upload.wikimedia.org/wikipedia/en/5/51/The_Lakes_by_Taylor_Swift.og" target="_blank" type="audio/ogg">
+        </audio>
+		<!--<a href="https://upload.wikimedia.org/wikipedia/en/5/51/The_Lakes_by_Taylor_Swift.ogg" target="_blank">SAMPLE AUIDO: The Lakes</a>-->
+
+        <iframe width="640" height="360" src="https://www.youtube.com/embed/y8tF0yRl8-w" title="taylor swift - the lakes (original version) [audio]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	
+	   <a href="https://www.youtube.com/watch?v=y8tF0yRl8-w">LISTEN ON YOUTUBE : The Lakes</a>
+
+
+9.Evermore (2020) --> TWO
+    
+    1.WILLOW
+        
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.HPr0-QYooYfUOrcHLVEqewHaEK%26pid%3DApi&f=1">
+
+        <audio controls>
+            <source src="https://upload.wikimedia.org/wikipedia/en/9/91/Willow_by_Taylor_Swift.mp3" target="_blank" type="audio/mp3">
+        </audio>
+		<!--<a href="https://upload.wikimedia.org/wikipedia/en/9/91/Willow_by_Taylor_Swift.mp3" target="_blank">SAMPLE AUIDO: WILLOW</a>-->
+
+        
+	<iframe width="640" height="360" src="https://www.youtube.com/embed/RsEZmictANA" title="Taylor Swift - willow (Official Music Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+	<a href="https://www.youtube.com/watch?v=RsEZmictANA">LISTEN ON YOUTUBE : WILLOW</a>
+
+	
+	2.NO BODY, NO CRIME
+        
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.YGW0VevikEHhUyQTdMCAkAHaEK%26pid%3DApi&f=1&ipt=b05f5beebad1ae56b3d5de81ad2020d98eaabfc33bde436930cc4f4adce5cb39&ipo=images">
+        
+        <iframe width="640" height="360" src="https://www.youtube.com/embed/IEPomqor2A8" title="Taylor Swift - no body, no crime (Official Lyric Video) ft. HAIM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        <a href="https://www.youtube.com/embed/IEPomqor2A8">LISTEN ON YOUTUBE : NO BODY, NO CRIME/a>
+
+
+10.Midnights (2022) --> EIGHT
+
+    1.ANTI HERO
+
+        <img src="https://upload.wikimedia.org/wikipedia/en/b/b9/Taylor_Swift_-_Anti-Hero.png">
+        
+        <!--<a href="https://upload.wikimedia.org/wikipedia/en/a/a4/Anti-Hero_by_Taylor_Swift_%28audio%29.ogg" target="_blank"> SAMPLE AUIDO: ANTI HERO</a>-->
+        <audio controls>
+            <source src="https://upload.wikimedia.org/wikipedia/en/a/a4/Anti-Hero_by_Taylor_Swift_%28audio%29.ogg" type="audio/ogg">
+        </audio>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/b1kbLwvqugk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        <a href="https://www.youtube.com/watch?v=b1kbLwvqugk">LISTEN ON YOUTUBE : ANTI HERO</a>
+
+        
+    2.KARMA 
+
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.-hZvbykmuxTChOqz1SY0BQHaJP%26pid%3DApi&f=1&ipt=113e81f65a1e196b36fe5296a7d3e01572465fee9308de7bb14604bd6fba352e&ipo=images">
+
+        <iframe width="640" height="360" src="https://www.youtube.com/embed/pzVYSfzNQ5Y" title="Karma" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+	  <a href="https://www.youtube.com/watch?v=pzVYSfzNQ5Y">LISTEN ON YOUTUBE : KARMA</a>
+
+
+    3.BEJEWLED
+
+        <img src="https://upload.wikimedia.org/wikipedia/en/7/7b/Taylor_Swift_-_Bejeweled.png">
+
+        <iframe width="640" height="360" src="https://www.youtube.com/embed/b7QlX3yR2xs" title="Taylor Swift - Bejeweled (Official Music Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+	  <a href="https://www.youtube.com/watch?v=b7QlX3yR2xs">LISTEN ON YOUTUBE : BEJEWLED</a>
+
+
+    4.YOU'RE ON YOUR OWN KIND 
+    
+        <iframe width="640" height="360" src="https://www.youtube.com/embed/7Gbg6Z70J7E" title="Taylor Swift - You're On Your Own, Kid (Official Lyric Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+	  <a href="https://youtu.be/7Gbg6Z70J7E">LISTEN ON YOUTUBE : YOU'RE ON YOUR OWN KIND</a>
+
+        
+    5.SNOW ON THE BEACH 
+    
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.DYyxzbXLeffuHpSbTRoasAHaEM%26pid%3DApi&f=1&ipt=b9eaf1c8c35e8673b6f5b11747ca41dc20bd47ce1512bbca56a36c34641c4764&ipo=images">
+
+        <iframe width="640" height="360" src="https://www.youtube.com/embed/ycE7bUq3-2k" title="Taylor Swift ft. Lana del Rey - Snow On The Beach (Official Lyric Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+	  <a href="https://youtu.be/ycE7bUq3-2k">LISTEN ON YOUTUBE : SNOW ON THE BEACH</a>
+
+        
+    6.DEAR READER 
+    
+        <iframe width="640" height="360" src="https://www.youtube.com/embed/X0Jti9F-oQA" title="Taylor Swift - Dear Reader (Official Lyric Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		
+	<a href="https://www.youtube.com/watch?v=X0Jti9F-oQA">LISTEN ON YOUTUBE : DEAR READER</a>
+
+        
+    7.QUESTION?
+    
+        <iframe width="640" height="360" src="https://www.youtube.com/embed/xxrf_QBD5DE" title="Taylor Swift - Question...? (Official Lyric Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+	<a href="https://youtu.be/xxrf_QBD5DE">LISTEN ON YOUTUBE : QUESTION?</a>
+
+        
+    8.LAVENDER HAZE 
+    
+      <iframe width="640" height="360" src="https://www.youtube.com/embed/mkR_Qwix4Ho" title="Taylor Swift - Lavender Haze (Official Lyric Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  
+	<a href="https://youtu.be/mkR_Qwix4Ho">LISTEN ON YOUTUBE : LAVENDER HAZE</a>
+
+    
+10.OTHERS
+
+    1.I Don't Wanna Live Forever
+        
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.IKbieTBBgXgQjc6GpHXHtAHaD4%26pid%3DApi&f=1">
+
+        <iframe width="640" height="360" src="https://www.youtube.com/embed/7F37r50VUTQ" title="ZAYN, Taylor Swift - I Don’t Wanna Live Forever (Fifty Shades Darker)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	  
+        <a href="https://www.youtube.com/watch?v=7F37r50VUTQ">LISTEN ON YOUTUBE : I Don't Wanna Live Forever</a>
+
+
+    2.Only the Young
+        
+        <img src="https://upload.wikimedia.org/wikipedia/en/6/69/Taylor_Swift_-_Only_the_Young.png">
+
+        <audio controls>
+            <source src="https://upload.wikimedia.org/wikipedia/en/e/e7/Only_the_Young_%E2%80%93_Taylor_Swift.ogg" target="_blank" type="audio/ogg">
+        </audio>
+		<!--<a href="https://upload.wikimedia.org/wikipedia/en/e/e7/Only_the_Young_%E2%80%93_Taylor_Swift.ogg" target="_blank">SAMPLE AUIDO: ONLY THE YOUNG</a>-->
+
+        <a href="https://www.youtube.com/watch?v=GJU-S1t2r1M">LISTEN ON YOUTUBE : ONLY THE YOUNG</a>
+
+
+</pre>
+</i></bold></h2>
+<br>
+</div>
+<div>
+<center><head><h1 style="color:hotpink;font-size:70px;" id="images"><i><bold>TAYLOR SWIFT IMAGES</i></bold></h1></head></div></center>
+<h2><i><bold>
+<pre>
+<center>
+<div class="gallery">
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.explicit.bing.net%2Fth%3Fid%3DOIP.dOCQFnnJyxaGKR2A0BaswwHaNK%26pid%3DApi&f=1">
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.453pnDo-aSBCtxgQ5rqHDQHaHa%26pid%3DApi&f=1">
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.LlhXFnex26JcwVauWGLGwAHaHa%26pid%3DApi&f=1">
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.42jPpu1UTj2hRYaImowzzgHaHZ%26pid%3DApi&f=1">
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.MQijY4RLRgjpDh6Z4MUkLwHaI4%26pid%3DApi&f=1">
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.xFSL50LWYLCAXIBKg59pTQHaHa%26pid%3DApi&f=1">
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.McgZ0wTp0iZUj5ExCf0KuwHaE7%26pid%3DApi&f=1">
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.GBdm3TesIutNyOY3t-Ac_wHaEK%26pid%3DApi&f=1">
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.91Lyd4CB5z1DGwmwXvKTcAHaEK%26pid%3DApi&f=1">
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.-RDY8f62Ir6J13tiSug6zQHaEs%26pid%3DApi&f=1">
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.CvigdNq4muek-HUDoiFAiAHaEK%26pid%3DApi&f=1">
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.4dqNUEJgc1pqYZLxiMw8lQHaD5%26pid%3DApi&f=1">
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.sKeEu10Vsa7wSnAXRK8iWQHaEz%26pid%3DApi&f=1">
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.7u0CMlTM5_f4T4HIlrB7lAHaD4%26pid%3DApi&f=1">
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.gZietKWKfqndxoFyevq76QHaEK%26pid%3DApi&f=1">
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.c1TQmZRviubm18k9xMMvYgHaI7%26pid%3DApi&f=1">
+
+<img src="https://celebmafia.com/wp-content/uploads/2019/05/taylor-swift-2019-billboard-music-awards-17.jpg" style="height:1000px">
+
+<img src="https://celebmafia.com/wp-content/uploads/2018/05/taylor-swift-2018-billboard-music-awards-in-las-vegas-6.jpg" style="height:1000px">
+
+<!----><img src="https://pbs.twimg.com/media/EpJBH3KUYAIcS__?format=jpg&name=medium"><!---->
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/57/Taylor_Swift_Red_Tour_4%2C_2013.jpg" style="height:1000px">
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.hawtcelebs.com%2Fwp-content%2Fuploads%2F2019%2F06%2Ftaylor-swift-performs-at-stonewall-inn-in-new-york-06-14-2019-6.jpg&f=1&nofb=1" style="height:1000px">
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.6Isa7cddjxqE7rRY79K7-gHaEK%26pid%3DApi&f=1">
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimgs.capitalfm.com%2Fimages%2F102799%3Fcrop%3D16_9%26width%3D660%26relax%3D1%26signature%3DS8ZqZZ4c876JhU-X1tUrjQipXEo%3D&f=1&nofb=1">
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.knrqqoysaVOzxbql_4f6IQHaLO%26pid%3DApi&f=1">
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.q9gQO3oJPU0lRZkABEiYJwHaKf%26pid%3DApi&f=1">
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.SsaBb6IJNDZmUzgEjLoUHwHaLJ%26pid%3DApi&f=1">
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.37zG6HDz7v195Y6evaB8tQHaKW%26pid%3DApi&f=1">
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.BBm_LyyFjbKW2uXWAgee2wHaE7%26pid%3DApi&f=1">
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.o66ezROYOkLUe_0va53d6gHaNK%26pid%3DApi&f=1">
+
+<img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.gotceleb.com%2Fwp-content%2Fuploads%2Fcelebrities%2Ftaylor-swift%2Fsunday-times-outtakes%2FTaylor-Swift%3A-Photoshoot-for-The-Sunday-Times-2014--10.jpg&f=1&nofb=1">
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.UTBfUCZv5Ze9QJOEtuJR3wHaJw%26pid%3DApi&f=1">
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.explicit.bing.net%2Fth%3Fid%3DOIP.lRnSshue8wF25QNpSAsjowHaNK%26pid%3DApi&f=1">
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.sawfirst.com%2Fwp-content%2Fuploads%2F2019%2F12%2FTaylor-Swift-in-Vogue-UK-Magazine-Photoshoot-January-2020-5.jpg&f=1&nofb=1" style="height:700px">
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.J6fL1c2Y_sYLZeYB7_wkzwHaMJ%26pid%3DApi&f=1">
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.bFP68nDBwq_8j44uRozIjgHaKX%26pid%3DApi&f=1">
+
+<img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fcelebmafia.com%2Fwp-content%2Fuploads%2F2014%2F10%2Ftaylor-swift-photoshoot-for-fashion-magazine-november-2014_4.jpg&f=1&nofb=1">
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.tfFJrAE0Ganu_m_u-2yRVAHaLH%26pid%3DApi&f=1">
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.eVHs2iSxRA7VJk4RYGOzOgHaE6%26pid%3DApi&f=1">
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.Y5iTsEcK8gYj6lkFkBWRiwHaEK%26pid%3DApi&f=1">
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.explicit.bing.net%2Fth%3Fid%3DOIP.4JP6IIpr8ciSxFGdyF2jIQHaFj%26pid%3DApi&f=1">
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.h3zSL5QSsPmCj1p5_aSkrgHaFj%26pid%3DApi&f=1">
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.Pi43OTE406hhb0NvF6BMoQHaDt%26pid%3DApi&f=1">
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.a0p3NsLvATm36SJm-joFagHaFS%26pid%3DApi&f=1">
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcompote.slate.com%2Fimages%2F94778c7b-b2cc-4ba5-b282-ab293144e0f8.png%3Fwidth%3D780%26height%3D520%26rect%3D1168x779%26offset%3D253x0&f=1&nofb=1">
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimgix.bustle.com%2Fuploads%2Fimage%2F2019%2F4%2F26%2Ff4347c54-79ab-4b47-aafc-286ae3f2164f-taylor-dress.jpg%3Fw%3D970%26h%3D546%26fit%3Dcrop%26crop%3Dfaces%26auto%3Dformat%26q%3D70&f=1&nofb=1">
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.OpA2Ma-8VseRbvPaqEn_ygHaE9%26pid%3DApi&f=1">
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.QzM5XqLGRCkczr9IzyxBGAHaLH%26pid%3DApi&f=1">
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.7Gv96nF-nhrLqu4Uzi-GAgHaD4%26pid%3DApi&f=1">
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.explicit.bing.net%2Fth%3Fid%3DOIP.seGZR_yNnEZHGsZRuYaILQHaEK%26pid%3DApi&f=1">
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fakns-images.eonline.com%2Feol_images%2FEntire_Site%2F2019517%2Frs_1024x633-190617075925-taylor-swift-yntcd-video-11.jpg&f=1&nofb=1">
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.oATe2Y2A026LcNi3S6jjSwHaD4%26pid%3DApi&f=1">
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.9FT4PaSfwr6NU0C5oav79QAAAA%26pid%3DApi&f=1">
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.JCYADpwlvIYtQYRVicOaAgHaHV%26pid%3DApi&f=1">
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.yD7lwpM8WCMPnx9bNrrouAHaD4%26pid%3DApi&f=1&ipt=f98b68d3b0fe429dfbb82314fe4538cfe657d45565c015993ad5e34c6f59824a&ipo=images">
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.IVpQVKOzPEfOz71bbfN-5AHaHa%26pid%3DApi&f=1&ipt=565a50216b726e0536ffc42fcbec58f9022477fef4c9fdefafd40977d7822357&ipo=images">
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.explicit.bing.net%2Fth%3Fid%3DOIP.Iw6oibFmGLthz_kBHLyAhwHaE7%26pid%3DApi&f=1&ipt=922af50c8450cae2a762cbc35f8c1d097c8e77c3ae2c6e490b68109d9a999062&ipo=images">
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.ZS2GSWpUcB_8oEwl28t2_gHaJp%26pid%3DApi&f=1&ipt=8d4cc728f3e2541aca51b1e3e6979808ed28ab0af047cdc46418ebec8a5658bb&ipo=images">
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.ox-irmFPVzKDfH2b_oLofgHaD4%26pid%3DApi&f=1&ipt=fa14e84489d5433185c1bccd0d1e5cdc971aae4b10b6b1d7ffbb31b2a1c576f7&ipo=images">
+
+<img src="https://www.billboard.com/wp-content/uploads/media/taylor-swift-nyc-july-17-2018-billboard-1548.jpg?w=942&h=623&crop=1&resize=942%2C623">
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.v-gF9m793kVVWs036LlHPAHaJQ%26pid%3DApi&f=1&ipt=f627af4879a0bc94da50429c6ab78b44642fb91d1b71ba301003ba93aa02db04&ipo=images">
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.i3yq6rqqu7ALsYS6n3_a1wHaJI%26pid%3DApi&f=1&ipt=ef200802f21b316fe54e4f214cb0f307ce84dae9d99e1235f6c68cd8400eb590&ipo=images">
+
+<img src="https://i.redd.it/duirfoozq0931.jpg"/>
+
+<!--<IMG SRC="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi1.sndcdn.com%2Fartworks-000256482803-cas191-t500x500.jpg&f=1&nofb=1&ipt=47e15f25a04bd0ab0af0d5139c5a805990044b7a94225260b0a486bd80791a24&ipo=images"/>-->
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.gp9uIQUi89fe3fcLgv0DZQHaJ4%26pid%3DApi&f=1&ipt=60996a636ee86cbb70320840c09e0744c814c51d7b1731558cd73de106397134&ipo=images"/>
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.UfX6_jSLrPVq-ZphFsUXugHaGm%26pid%3DApi&f=1&ipt=744d1845c18b1f265a926fcfdcd0b92ba44a454261390b97c836a7b5585e41dd&ipo=images"/>
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.explicit.bing.net%2Fth%3Fid%3DOIP.iA3jXkmrM36YEQEJtcZoRgHaHa%26pid%3DApi&f=1&ipt=b2305431be9372b0d1a155fac15f7379b473a02515c4369383d0f17d258cc665&ipo=images"/>
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.t11FurASHgZYkWshIVz_uQHaGm%26pid%3DApi&f=1&ipt=8a03b8bd916e3dd6f9e4a6c86aa6a88ee6449ee54e0e9175322d84f790d619b8&ipo=images"/>
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.zc1q2-RfRjHI2DYrBxOEXwHaHH%26pid%3DApi&f=1&ipt=bf766dac32645ed7136f78373691edd40960c57cbb420c110e1d060ac309edf8&ipo=images"/>
+<!--
+<img src="https://wallpapercave.com/wp/wp7261572.jpg"/>
+
+<img src="https://1.bp.blogspot.com/-Gra1ONaZn3A/WjPabAvHzEI/AAAAAAAADwU/cAN6hiF_qaoTxTFI6MGJElUPvORWcIhiACLcBGAs/s1600/Taylor-Swift-GQ-Magazine-Photoshoot-November-2015-3.jpg"/>
+
+<img src="https://th.bing.com/th/id/R.2765d069052a9d12cbb38733fc387264?rik=Jy8FN5vRbLzoBQ&riu=http%3a%2f%2fwww.gannett-cdn.com%2f-mm-%2f746613f60e47d12edf20ba3db2890d35de693679%2fc%3d17-0-1025-1800%26r%3d583%26c%3d0-0-580-1031%2flocal%2f-%2fmedia%2f2015%2f10%2f15%2fUSATODAY%2fUSATODAY%2f635805099771351456-GQ-T-Swift.jpg&ehk=RgrcA28NDbNUdBr2Fn%2bPd5dfAKlgTyb09bJ%2bxFwdbY8%3d&risl=&pid=ImgRaw&r=0"/>
+
+<img src="https://media1.popsugar-assets.com/files/thumbor/ti2dX3K0b1_NO3fR4P9RYBJQOMs/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2022/08/28/083/n/1922564/3090c66a630c0f98f2eb29.66114837_/i/taylor-swift-oscar-de-la-renta-dress-mtv-vmas-2022.jpg"/>-->
+<img src="https://th.bing.com/th/id/OIP.CHScHb-I0b2Sai_TUKaLnAHaLH?w=203&h=304&c=7&r=0&o=5&dpr=1.5&pid=1.7"/>
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.9WQziy6ESgezQ7exsNyZrQHaNK%26pid%3DApi&f=1&ipt=5e7faef6ce6a934e930c1e07258e8880c909e543ea9c7b99188a9302167d076c&ipo=images"/>
+
+<img src="https://i1.wp.com/www.hotcelebshome.com/wp-content/uploads/2018/10/Taylor-Swift-Sexy-Silver-Dress-9.jpg?fit=1530%2C1920&ssl=1"/>
+
+<img src="https://assets.vogue.com/photos/6358002d8e93a0413a14fa26/16:9/w_640,c_limit/00-promo.gif" alt="TaylorSwift Bejeweled" />
+
+<img src="https://assets.vogue.com/photos/630cfb1fac9e86a466f338ad/master/w_960,c_limit/00-story-1.gif" alt="TaylorSwift MTV" />
+
+<img src="https://assets.vogue.com/photos/630cfb1f1326a4fefbc72b04/master/w_960,c_limit/00-story-2.gif" alt="TaylorSwift MTV2" />
+
+<img src="https://i1.wp.com/fashionandstylepolice.com/wp-content/uploads/2014/10/vogue-nov14-30sep14-pr_b.jpg?ssl=1"/>
+
+
+<img src="https://th.bing.com/th/id/OIP.dEKv-izakRfP1GIdfnCsegHaJ3?pid=ImgDet&w=700&h=932&rs=1"/>
+
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fassets.vogue.com%2Fphotos%2F5d41d0dfb94ee5000840ec6d%2Fmaster%2Fw_2560%252Cc_limit%2FVO090119_FRONT_no_coverlines.jpg&f=1&nofb=1&ipt=da09694caa57cae275593098f86ea561fdab25fd824ac4ed26dbef1be9c3d49e&ipo=images" />
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.wallpapersden.com%2Fimage%2Fdownload%2Ftaylor-swift-gq-magazine-photoshoot_am1mZmWUmZqaraWkpJRmaGhrrWxrbQ.jpg&f=1&nofb=1&ipt=609952d337eabc4915a0d6b53bf60000cd4b6b94792657948725c37132632962&ipo=images"/>
+
+
+<img src="https://hollywoodlife.com/wp-content/uploads/2022/02/taylor-swift-mtv-vmas-2022-after-party-backgrid-01.jpg?w=680"/>
+
+<img src="https://hollywoodlife.com/wp-content/uploads/2022/02/taylor-swift-pinstripe-spl.jpg?w=680"/>
+
+
+<img src="http://hollywoodlife.com/wp-content/uploads/2020/10/taylor-swift-sexiest-pics-gal-spl-2.jpg?w=680"/>
+
+<img src="http://hollywoodlife.com/wp-content/uploads/2020/10/taylor-swift-sexiest-pics-gal-ap-11.jpg?w=680"/>
+
+<img src="http://hollywoodlife.com/wp-content/uploads/2020/10/taylor-swift-sexiest-pics-gal-spl-13.jpg?w=680"/>
+
+<img src="https://cdn.shopify.com/s/files/1/0011/4651/9637/t/227/assets/SWIFT-House_1445x.jpg?v=43579608093376766631673295143%22"/>
+
+<img src="https://assets.vogue.com/photos/5f1b215bdd37339048aeb41e/master/w_2240,c_limit/00_story.gif%202240w"/>
+
+<img src="https://assets.vogue.com/photos/5e57fc6256da1c0008bf76c6/master/w_1280,c_limit/00_story%20(2).gif"/>
+
+<img src="https://assets.vogue.com/photos/5d49c4bbf16fe10009ce1ca9/16:9/w_640,c_limit/00-taylor-promo%20(1).gif"/>
+
+<img src="https://assets.vogue.com/photos/5d07d0afadfd097368247094/1:1/w_320,c_limit/00-promo-t-swift-katy-perry.gif"/>
+
+<img src="https://assets.vogue.com/photos/5cc31f32609be02e5604bf96/1:1/w_320,c_limit/00-promo-taylor-swift-me.gif"/>
+
+<img src="https://assets.vogue.com/photos/5aa7faa085604a74564ec142/16:9/w_640,c_limit/00-promo-image-taylor-swift-delicate-music-video-los-angeles-guide.gif" />
+
+<img src="https://assets.vogue.com/photos/5aa6c3d774dfbf0bd53fc234/16:9/w_640,c_limit/00-promo-taylor-swift-delicate.gif" />
+
+<img src="https://assets.vogue.com/photos/5a5933a442c715096b2392d0/16:9/w_640,c_limit/00-promo-image%20(1).gif" />
+
+<img src="https://assets.vogue.com/photos/59f360891b0e4a501780ecb5/16:9/w_640,c_limit/00-promo-image-t-swift.gif" />
+
+<img src="https://assets.vogue.com/photos/59f33cd71b0e4a501780ec8f/16:9/w_640,c_limit/00-promo-small-taylor-swift.gif" />
+
+<img src="https://assets.vogue.com/photos/58910f8558aa89a00d541182/16:9/w_640,c_limit/00-holding-small-2.gif" />
+
+<img src="https://assets.vogue.com/photos/58910fd3b482c0ea0e4d5cc0/16:9/w_640,c_limit/00-holding-240px.gif" />
+
+<img src="https://assets.vogue.com/photos/58914ef87edfa70512d6380c/16:9/w_640,c_limit/00-main-holding-ts.gif" />
+
+<img src="https://assets.vogue.com/photos/58914f1e58aa89a00d542a0b/1:1/w_354%2Cc_limit/holding-600-600-taylor-swift-party-host-roundup.gif" />
+
+<img src="https://assets.vogue.com/photos/5891d854fb0604bf1f5c5d9c/16:9/w_640,c_limit/0-homepage-holding-deleting-your-ex.gif" />
+
+<img src="https://assets.vogue.com/photos/587731313497bb682a562d0c/16:9/w_640,c_limit/taylor-swift-vogue-cover-may-2016.jpg" />
+
+<img src="https://assets.vogue.com/photos/58775e2137524ae576dd1810/16:9/w_640,c_limit/taylor-swift-holding-sq.gif" />
+
+
+<img src="https://assets.vogue.com/photos/5891fa7223f9887c0e0e515b/16:9/w_640,c_limit/taylor-swift-1.jpg" />
+
+<img src="https://assets.vogue.com/photos/58916b87fb0604bf1f5c2f7e/16:9/w_640,c_limit/taylor-swift-holding.jpg" />
+
+<img src="https://assets.vogue.com/photos/58916c324fe1526113022125/16:9/w_640,c_limit/taylor-swift-singles.gif" />
+
+<img src="https://assets.vogue.com/photos/58917ea1b482c0ea0e4d8a4f/16:9/w_640,c_limit/bad-blood-holding-new.gif" />
+
+<img src="https://assets.vogue.com/photos/58917fcc58aa89a00d543ecc/16:9/w_640,c_limit/bad-blood-holding-taylor-swift.gif" />
+
+<img src="https://assets.vogue.com/photos/5891ad028c64075803ad1d37/16:9/w_640,c_limit/Taylor_Gif_05.gif" />
+
+<img src="https://assets.vogue.com/photos/5891acf38c64075803ad1d2d/master/w_1600,c_limit/Taylor_Gif_01.gif" />
+
+<img src="https://assets.vogue.com/photos/5891acfa4fe1526113023de0/master/w_1600,c_limit/giphy_Big.gif" />
+
+<img src="https://assets.vogue.com/photos/5891acf4ce34fb453af7c6ee/master/w_1600,c_limit/Taylor_Gif_04.gif" />
+
+<img src="https://assets.vogue.com/photos/5891acfcb482c0ea0e4d9e1e/master/w_1600,c_limit/GreenSkirt.gif" />
+
+<img src="https://assets.vogue.com/photos/5891acfff88f7c2037367915/master/w_1600,c_limit/Taylor_Gif_03NOFRAME.gif" />
+
+<img src="https://assets.vogue.com/photos/5891acfcb482c0ea0e4d9e1e/master/w_1600,c_limit/GreenSkirt.gif" />
+
+<img src="https://assets.vogue.com/photos/5891cb3b58aa89a00d545d4e/master/w_1600,c_limit/haim-taylor-swift.gif" />
+
+<img src="" />
+
+<img src="" />
+
+<img src="" />
+
+<img src="" />
+
+<img src="" />
+
+<img src="" />
+
+<img src="" />
+</div>
+</center>
+</pre></i></bold></h2>
+
+<br>
+<br>
+<br>
+<div>
+<center><i><b><h1 id="spotifytracks">Spotify Tracks</h1></b></i></center>
+
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2slqvGLwzZZYsT4K4Y1GBC?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+<br>
+<br>
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1IxeJLsubGTboNN9K5XNfL?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+<br>
+<br>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4d1CG5ei1E2vGbvmgf5KKv?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+<br>
+<br>
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1LLXZFeAHK9R4xUramtUKw?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+<br>
+<br>
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0TvQLMecTE8utzoNmvXRbK?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+<br>
+<br>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1u8c2t2Cy7UBoG4ArRcF5g?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+<br>
+<br>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0cqRj7pUJDkTCEsJkx8snD?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
+<br>
+<br>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0lx2cLdOt3piJbcaXIV74f?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
+<br>
+<br>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2CYVETnhM9aytqrazYYwrK?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+<br>
+<br>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0Jlcvv8IykzHaSmj49uNW8?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
+<br>
+<br>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4R2kfaDFhslZEMJqAFNpdd?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+<br>
+<br>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4pvb0WLRcMtbPGmtejJJ6y?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+<br>
+<br>
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0UAdDYrkCvVQftaKpL6q5f?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+<br>
+<br>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/43rA71bccXFGD4C8GOpIlN?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+<br>
+<br>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1BxfuPKGuaTgP7aM0Bbdwr?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+<br>
+<br>
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1dGr1c8CrMLDpV6mPbImSI?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+<br>
+<br>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3RauEVgRgj1IuWdJ9fDs70?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+<br>
+<br>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/214nt20w5wOxJnY462klLw?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+<br>
+<br>
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6RRNNciQGZEXnqk8SQ9yv5?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+<br>
+<br>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2Rk4JlNc2TPmZe2af99d45?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+<br>
+<br>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3CeCwYWvdfXbZLXFhBrbnf?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
+<br>
+<br>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/72jCZdH0Lhg93z6Z4hBjgj?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
+<br>
+<br>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3WC5CVAahvn98hiseoIvbw?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
+<br>
+<br>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2yLa0QULdQr0qAIvVwN6B5?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+<br>
+<br>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6NFyWDv5CjfwuzoCkw47Xf?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
+<br>
+<br>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1P17dC1amhFzptugyAO7Il?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
+<br>
+<br>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/55n9yjI6qqXh5F2mYvUc2y?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+<br>
+<br>
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6xsEAm6w9oMQYYg3jkEkMT?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
+<br><br>
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/02Zkkf2zMkwRGQjZ7T4p8f?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+<br><br>
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6ADDIJxxqzM9LMpm78yzQG?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+<br><br>
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4g2c7NoTWAOSYDy44l9nub?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+<br><br>
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/7gVWKBcfIW93YxNBi3ApIE?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+<br><br>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6C7OF1Jal7YkyjzyUG8vkK?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<br><br>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0jvo9CjnbR0lYUDTSNTMiu?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<br><br>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5oqDgw5VGBln5dSIOPWyBq?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<br><br>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3QF5RsWzK1lCvf2o2cY65P?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<br><br>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2CYVETnhM9aytqrazYYwrK?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<br><br>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2dgFqt3w9xIQRjhPtwNk3D?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<br><br>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1SmiQ65iSAbPto6gPFlBYm?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<br><br>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4OAuvHryIVv4kMDNSLuPt6?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<br><br>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1R0a2iXumgCiFb7HEZ7gUE?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<br><br>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1ZY1PqizIl78geGM4xWlEA?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<br><br>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5YqltLsjdqFtvqE7Nrysvs?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<br><br>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1j6gmK6u4WNI33lMZ8dC1s?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<br><br>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0ug5NqcwcFR2xrfTkc7k8e?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<br><br>
+<br><br>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2x0WlnmfG39ZuDmstl9xfX?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<br><br>
+<br><br>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3RaT22zZsxVYxxKR7TAaYF?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<br><br>
+<br><br>
+</div>
+
+<div style="color:hotpink;">
+<pre>
+<bold><h1 id="FavouriteLyrics">Favourite Lyrics</h1></bold>
+
+<p id="ONLYTHEYOUNG">1. ONLY THE YOUNG</p>
+
+It keeps me awake, the look on your face
+The moment you heard the news
+You're screaming inside, and frozen in time
+You did all that you could do
+The game was rigged, the ref got tricked
+The wrong ones think they're right
+You were outnumbered, this time
+But only the young
+Only the young
+Only the young
+Only the young can run
+Can run, so run and run and run
+So everyday now, you brace for the sound
+You've only heard on TV
+You go to class, scared, wondering where
+The best hiding spot would be
+And the big bad man and his big bad clan
+Their hands are stained with red
+Oh, how quickly they forget
+They aren't gonna help us
+Too busy helping themselves
+They aren't gonna change this
+We gotta do it ourselves
+They think that it's over
+But it's just begun
+Only one thing can save us
+Only the young (Only the young)
+Only the young (Only the young)
+Only the young (Only the young)
+Only the young
+Only the young (Only the young)
+Only the young (Only the young)
+Only the young (Only the young)
+Only the young
+Only the young (Don't say you're too tired to fight)
+Only the young (It's just a matter of time)
+Only the young (Up there's the finish line)
+Only the young can run
+Don't say you're too tired to fight
+It's just a matter of time (Can run)
+Up there's the finish line
+So run and run and run
+Don't say you're too tired to fight
+It's just a matter of time (So run)
+Up there's the finish line
+And run and run and run
+Only the young
+Only the young
+Only the young
+
+<a href="https://www.youtube.com/watch?v=GJU-S1t2r1M">LISTEN ON YOUTUBE : ONLY THE YOUNG</a>
+
+<p id="BLANKSPACE">2. BLANK SPACE</p>
+
+Nice to meet you, where you been?
+I could show you incredible things
+Magic, madness, heaven, sin
+Saw you there and I thought
+"Oh, my God, look at that face
+You look like my next mistake
+Love's a game, wanna play?" Ay
+New money, suit and tie
+I can read you like a magazine
+Ain't it funny? Rumors fly
+And I know you heard about me
+So hey, let's be friends
+I'm dying to see how this one ends
+Grab your passport and my hand
+I can make the bad guys good for a weekend
+So it's gonna be forever
+Or it's gonna go down in flames
+You can tell me when it's over, hmm
+If the high was worth the pain
+Got a long list of ex-lovers
+They'll tell you I'm insane
+'Cause you know I love the players
+And you love the game
+'Cause we're young, and we're reckless
+We'll take this way too far
+It'll leave you breathless, hmm
+Or with a nasty scar
+Got a long list of ex-lovers
+They'll tell you I'm insane
+But I've got a blank space, baby
+And I'll write your name
+Cherry lips, crystal skies
+I could show you incredible things
+Stolen kisses, pretty lies
+You're the King, baby, I'm your Queen
+Find out what you want
+Be that girl for a month
+Wait, the worst is yet to come, oh, no
+Screaming, crying, perfect storms
+I can make all the tables turn
+Rose garden filled with thorns
+Keep you second guessing like
+"Oh, my God, who is she?"
+I get drunk on jealousy
+But you'll come back each time you leave
+'Cause, darling, I'm a nightmare dressed like a daydream
+So it's gonna be forever
+Or it's gonna go down in flames
+You can tell me when it's over, hmm
+If the high was worth the pain
+Got a long list of ex-lovers
+They'll tell you I'm insane
+'Cause you know I love the players
+And you love the game
+'Cause we're young, and we're reckless (oh)
+We'll take this way too far
+It'll leave you breathless, hmm (oh)
+Or with a nasty scar
+Got a long list of ex-lovers
+They'll tell you I'm insane (insane)
+But I've got a blank space, baby
+And I'll write your name
+Boys only want love if it's torture
+Don't say I didn't, say I didn't warn ya
+Boys only want love if it's torture
+Don't say I didn't, say I didn't warn ya
+So it's gonna be forever
+Or it's gonna go down in flames
+You can tell me when it's over (over)
+If the high was worth the pain
+Got a long list of ex-lovers
+They'll tell you I'm insane (I'm insane)
+'Cause you know I love the players
+And you love the game
+'Cause we're young, and we're reckless
+We'll take this way too far (ooh)
+It'll leave you breathless, hmm
+Or with a nasty scar (leave a nasty scar)
+Got a long list of ex-lovers
+They'll tell you I'm insane
+But I've got a blank space, baby
+And I'll write your name
+
+<a href="https://www.youtube.com/watch?v=AgFeZr5ptV8">LISTEN ON YOUTUBE : BLANK SPACE</a>
+
+<p id="LOVER">3. LOVER</P>
+
+We could leave the Christmas lights up 'til January
+This is our place, we made the rules
+And there's a dazzling haze, a mysterious way about you, dear
+Have I known you twenty seconds or twenty years?
+Can I go where you go?
+Can we always be this close?
+Forever and ever in love
+Take me out and take me home
+You're my, my, my, my
+Lover
+We could let our friends crash in the living room
+This is our place, we made the call
+And I'm highly suspicious that everyone who sees you wants you
+I've loved you three summers now, honey, but I want 'em all
+Can I go where you go?
+Can we always be this close?
+Forever and ever in love
+Take me out and take me home
+(Forever and ever)
+You're my, my, my, my
+Lover
+Ladies and gentlemen, will you please stand?
+With every guitar string scar on my hand
+I take this magnetic force of a man to be my
+Lover
+My heart's been borrowed and your's has been blue
+All's well that ends well to end up with you
+Swear to be overdramatic and true to my
+Lover
+And you'll save all your dirtiest jokes for me
+And at every table, I'll save you a seat
+Lover
+Can I go where you go?
+Can we always be this close?
+Forever and ever in love
+Take me out and take me home
+(Forever and ever)
+You're my, my, my, my
+Oh, you're my, my, my, my
+Darling, you're my, my, my, my
+Lover
+
+<a href="https://www.youtube.com/watch?v=-BjZmE2gtdo">LISTEN ON YOUTUBE : LOVER</a>
+
+
+<p id="WILLOW">4. WILLOW</p>
+
+I'm like the water, when your ship rolled in that night
+Rough on the surface, but you cut through like a knife
+And if it was an open-shut case
+I never would've known from that look on your face
+Lost in your current, like a priceless wine
+The more that you say, the less I know
+Wherever you stray, I follow
+I'm beggin' for you to take my hand
+Wreck my plans, that's my man
+That's my man
+Life was a willow, and it bent right to your wind (ah-ah-ah)
+Head on the pillow, I could feel you sneakin' in
+As if you were a mythical thing
+Like you were a trophy, or a champion ring
+And there was one prize I'd cheat to win
+The more that you say, the less I know
+Wherever you stray, I follow
+I'm beggin' for you to take my hand
+Wreck my plans, that's my man
+You know that my train could take you home
+Anywhere else is hollow
+I'm beggin' for you to take my hand
+Wreck my plans, that's my man
+That's my man
+Life was a willow, and it bent right to your wind
+They count me out time and time again
+Life was a willow, and it bent right to your wind
+But I come back stronger than a '90s trend
+Wait for the signal, and I'll meet you after dark
+Show me the places where the others gave you scars
+And now this is an open-shut case
+I guess I should've known from the look on your face
+Every bait-and-switch was a work of art
+The more that you say, the less I know
+Wherever you stray, I follow
+I'm beggin' for you to take my hand
+Wreck my plans, that's my man
+You know that my train could take you home
+Anywhere else is hollow
+I'm beggin' for you to take my hand
+Wreck my plans, that's my man
+Hey, that's my man
+That's my man
+Hey, that's my man
+Every bait-and-switch was a work of art (that's my man)
+That's my man
+Hey, that's my man (that's my man)
+Beggin' for you to take my hand
+Wreck my plans, that's my man
+That's my man
+That's my man
+Hey, that's my man
+I'm beggin' for you to take my hand
+Wreck my plans, that's my man
+
+<a href="https://www.youtube.com/watch?v=RsEZmictANA">LISTEN ON YOUTUBE : WILLOW</a>
+
+<p id="CARDIGAN">5. CARDIGAN</p>
+
+Vintage tee, brand new phone
+High heels on cobblestones
+When you are young, they assume you know nothing
+Sequin smile, black lipstick
+Sensual politics
+When you are young, they assume you know nothing
+But I knew you
+Dancin' in your Levi's
+Drunk under a streetlight, I
+I knew you
+Hand under my sweatshirt
+Baby, kiss it better, I
+And when I felt like I was an old cardigan
+Under someone's bed
+You put me on and said I was your favorite
+A friend to all is a friend to none
+Chase two girls, lose the one
+When you are young, they assume you know nothin'
+But I knew you
+Playing hide-and-seek and
+Giving me your weekends, I
+I knew you
+Your heartbeat on the High Line
+Once in 20 lifetimes, I
+And when I felt like I was an old cardigan
+Under someone's bed
+You put me on and said I was your favorite
+To kiss in cars and downtown bars
+Was all we needed
+You drew stars around my scars
+But now I'm bleedin'
+'Cause I knew you
+Steppin' on the last train
+Marked me like a bloodstain, I
+I knew you
+Tried to change the ending
+Peter losing Wendy, I
+I knew you
+Leavin' like a father
+Running like water, I
+And when you are young, they assume you know nothing
+But I knew you'd linger like a tattoo kiss
+I knew you'd haunt all of my what-ifs
+The smell of smoke would hang around this long
+'Cause I knew everything when I was young
+I knew I'd curse you for the longest time
+Chasin' shadows in the grocery line
+I knew you'd miss me once the thrill expired
+And you'd be standin' in my front porch light
+And I knew you'd come back to me
+You'd come back to me
+And you'd come back to me
+And you'd come back
+And when I felt like I was an old cardigan
+Under someone's bed
+You put me on and said I was your favorite
+
+<a href="https://www.youtube.com/watch?v=K-a8s8OLBSE">LISTEN ON YOUTUBE : Cardigan</a>
+
+<p id="EXILE">6. EXILE</p>
+
+I can see you standing, honey
+With his arms around your body
+Laughin', but the joke's not funny at all
+And it took you five whole minutes
+To pack us up and leave me with it
+Holdin' all this love out here in the hall
+I think I've seen this film before
+And I didn't like the ending
+You're not my homeland anymore
+So what am I defending now?
+You were my town
+Now I'm in exile, seein' you out
+I think I've seen this film before
+I can see you starin', honey
+Like he's just your understudy
+Like you'd get your knuckles bloody for me
+Second, third, and hundredth chances
+Balancin' on breaking branches
+Those eyes add insult to injury
+I think I've seen this film before
+And I didn't like the ending
+I'm not your problem anymore
+So who am I offending now?
+You were my crown
+Now I'm in exile, seein' you out
+I think I've seen this film before
+So I'm leavin' out the side door
+So step right out, there is no amount
+Of crying I can do for you
+All this time
+We always walked a very thin line
+You didn't even hear me out (you didn't even hear me out)
+You never gave a warning sign (I gave so many signs)
+All this time
+I never learned to read your mind (never learned to read my mind)
+I couldn't turn things around (you never turned things around)
+'Cause you never gave a warning sign (I gave so many signs)
+So many signs, so many signs
+You didn't even see the signs
+I think I've seen this film before
+And I didn't like the ending
+You're not my homeland anymore
+So what am I defending now?
+You were my town
+Now I'm in exile, seein' you out
+I think I've seen this film before
+So I'm leavin' out the side door
+So step right out, there is no amount
+Of crying I can do for you
+All this time
+We always walked a very thin line
+You didn't even hear me out (didn't even hear me out)
+You never gave a warning sign (I gave so many signs)
+All this time
+I never learned to read your mind (never learned to read my mind)
+I couldn't turn things around (you never turned things around)
+'Cause you never gave a warning sign (I gave so many signs)
+All this time (so many signs)
+I never learned to read your mind (so many signs)
+I couldn't turn things around (I couldn't turn things around)
+'Cause you never gave a warning sign (you never gave a warning sign)
+You never gave a warning sign
+Ah, ah
+
+<a href="https://www.youtube.com/watch?v=osdoLjUNFnA">LISTEN ON YOUTUBE : Exile</a>
+
+<p id="MISSAMERICANA&THEHEARTBREAKPRINCE">7. Miss Americana & The Heartbreak Prince</p>
+
+You know I adore you
+I'm crazier for you
+Than I was at 16
+Lost in a film scene
+Waving homecoming queens
+Marching band playing
+I'm lost in the lights
+American glory
+Faded before me
+Now I'm feeling hopeless
+Ripped up my prom dress
+Running through rose thorns
+I saw the scoreboard
+And ran for my life
+No cameras catch my pageant smile
+I counted days, I counted miles
+To see you there, to see you there
+It's been a long time coming, but
+It's you and me
+That's my whole world
+They whisper in the hallway, "She's a bad, bad girl" (okay)
+The whole school is rolling fake dice
+You play stupid games
+You win stupid prizes
+It's you and me
+There's nothing like this
+Miss Americana and The Heartbreak Prince (okay)
+We're so sad, we paint the town blue
+Voted most likely to run away with you
+My team is losing
+Battered and bruising
+I see the high fives
+Between the bad guys
+Leave with my head hung
+You are the only one
+Who seems to care
+American stories
+Burning before me
+I'm feeling helpless
+The damsels are depressed
+Boys will be boys then
+Where are the wise men?
+Darling, I'm scared
+No cameras catch my muffled cries
+I counted days, I counted miles
+To see you there, to see you there
+And now the storm is coming, but
+It's you and me
+That's my whole world
+They whisper in the hallway, "She's a bad, bad girl" (okay)
+The whole school is rolling fake dice
+You play stupid games
+You win stupid prizes
+It's you and me
+There's nothing like this
+Miss Americana and The Heartbreak Prince (okay)
+We're so sad, we paint the town blue
+Voted most likely to run away with you
+And I don't want you to (go)
+I don't really wanna (fight)
+'Cause nobody's gonna (win)
+I think you should come home
+And I don't want you to (go)
+I don't really wanna (fight)
+'Cause nobody's gonna (win)
+I think you should come home
+And I don't want you to (go)
+I don't really wanna (fight)
+'Cause nobody's gonna (win)
+I just think you should know
+And I'll never let you (go)
+'Cause I know this is a (fight)
+That someday we're gonna (win)
+It's you and me
+That's my whole world
+They whisper in the hallway, "She's a bad, bad girl"
+Oh, I just thought you should know
+You should know
+It's you and me
+There's nothing like this (like this)
+Miss Americana and The Heartbreak Prince (okay)
+We're so sad, we paint the town blue (paint it blue)
+Voted most likely to run away with you
+And I don't want you to (go)
+I don't really wanna (fight)
+'Cause nobody's gonna (win)
+I think you should come home
+And I'll never let you (go)
+'Cause I know this is a (fight)
+That one day we're gonna (win)
+I just think you should know
+It's you and me
+That's my whole world
+They whisper in the hallway, "She's a bad, bad girl"
+"She's a bad, bad girl"
+
+<a href="https://www.youtube.com/watch?v=Kwf7P2GNAVw">LISTEN ON YOUTUBE : Miss Americana & the Heartbreak Prince</a>    
+
+<p id="BADBLOOD">8.BAD BLOOD</p>
+
+'Cause baby, now we got bad blood
+You know it used to be mad love
+So take a look what you've done
+'Cause baby, now we got bad blood (hey!)
+Now we got problems
+And I don't think we can solve 'em
+You made a really deep cut
+And baby, now we got bad blood (hey!)
+Did you have to do this?
+I was thinking that you could be trusted
+Did you have to ruin
+What was shining? Now it's all rusted
+Did you have to hit me
+Where I'm weak? Baby, I couldn't breathe
+And rub it in so deep
+Salt in the wound like you're laughing right at me
+Oh, it's so sad to think about the good times
+You and I
+'Cause baby, now we got bad blood
+You know it used to be mad love
+So take a look what you've done
+'Cause baby, now we got bad blood (hey!)
+Now we got problems
+And I don't think we can solve 'em
+You made a really deep cut
+And baby, now we got bad blood (hey!)
+Did you think we'd be fine?
+Still got scars on my back from your knife
+So don't think it's in the past
+These kind of wounds they last and they last
+Now did you think it all through?
+All these things will catch up to you
+And time can heal, but this won't
+So if you come in my way, just don't
+Oh, it's so sad to think about the good times
+You and I
+'Cause baby, now we got bad blood
+You know it used to be mad love
+So take a look what you've done
+'Cause baby, now we got bad blood (hey!)
+Now we got problems
+And I don't think we can solve 'em
+You made a really deep cut
+And baby, now we got bad blood (hey!)
+Band-aids don't fix bullet holes
+You say sorry just for show
+If you live like that, you live with ghosts (ghosts, ghosts)
+Band-aids don't fix bullet holes (hey!)
+You say sorry just for show (hey!)
+If you live like that, you live with ghosts (hey!)
+Hm, if you love like that, blood runs cold
+'Cause baby, now we got bad blood
+You know it used to be mad love
+So take a look what you've done
+'Cause baby, now we got bad blood (hey!)
+Now we got problems
+And I don't think we can solve 'em (think we can solve 'em)
+You made a really deep cut
+And baby, now we got bad blood (hey!)
+'Cause baby, now we got bad blood
+You know it used to be mad love
+So take a look what you've done (look what you've done)
+'Cause baby, now we got bad blood (hey!)
+Now we got problems
+And I don't think we can solve 'em
+You made a really deep cut
+And baby, now we got bad blood (hey!)
+
+<a href="https://www.youtube.com/watch?v=QcIy9NiNbmo">LISTEN ON YOUTUBE : BAD BLOOD</a>
+
+<p id="LOOKWHATYOUMADEMEDO">9. LOOK WHAT YOU MADE ME DO</p>
+
+I don't like your little games
+Don't like your tilted stage
+The role you made me play of the fool
+No, I don't like you
+
+I don't like your perfect crime
+How you laugh when you lie
+You said the gun was mine
+Isn't cool, no, I don't like you (oh)
+
+But I got smarter, I got harder in the nick of time
+Honey, I rose up from the dead, I do it all the time
+I got a list of names, and yours is in red, underlined
+I check it once, then I check it twice, oh!
+
+Ooh, look what you made me do
+Look what you made me do
+Look what you just made me do
+Look what you just made me...
+Ooh, look what you made me do
+Look what you made me do
+Look what you just made me do
+Look what you just made me do
+
+I (I) don't (don't) like your kingdom keys (keys)
+They (they) once belonged to me (me)
+You (you) asked me for a place to sleep
+Locked me out and threw a feast (what?)
+
+The world moves on, another day another drama, drama
+But not for me, not for me, all I think about is karma
+And then the world moves on, but one thing's for sure
+Maybe I got mine, but you'll all get yours
+
+But I got smarter, I got harder in the nick of time (nick of time)
+Honey, I rose up from the dead, I do it all the time (I do it all the time)
+I got a list of names, and yours is in red, underlined
+I check it once, then I check it twice, oh!
+
+Ooh, look what you made me do
+Look what you made me do
+Look what you just made me do
+Look what you just made me...
+Ooh, look what you made me do
+Look what you made me do
+Look what you just made me do
+Look what you just made me do
+
+I don't trust nobody and nobody trusts me
+I'll be the actress starring in your bad dreams
+I don't trust nobody and nobody trusts me
+I'll be the actress starring in your bad dreams
+I don't trust nobody and nobody trusts me
+I'll be the actress starring in your bad dreams
+I don't trust nobody and nobody trusts me
+I'll be the actress starring in your bad dreams
+
+(Ooh, look what you made me do)
+(Look what you made me do)
+(Look what you just made me do) I'm sorry
+But the old Taylor can't come to the phone right now
+Why? Oh, 'cause she's dead (oh)
+
+Ooh, look what you made me do
+Look what you made me do
+Look what you just made me do
+Look what you just made me...
+Ooh, look what you made me do
+Look what you made me do
+Look what you just made me do
+Look what you just made me do
+
+Ooh, look what you made me do
+Look what you made me do
+Look what you just made me do
+Look what you just made me...
+Ooh, look what you made me do
+Look what you made me do
+Look what you just made me do
+Look what you just made me do
+
+<a href="https://www.youtube.com/watch?v=3tmd-ClpJxA">LISTEN ON YOUTUBE : LOOK WHAT YOU MADE ME DO</a>
+
+<p id="IKNEWyouweretrouble">10. I KNEW YOU WERE TROUBLE</p>
+
+Once upon a time, a few mistakes ago
+I was in your sights, you got me alone
+You found me, you found me, you found me
+I guess you didn't care, and I guess I liked that
+And when I fell hard, you took a step back
+Without me, without me, without me
+And he's long gone when he's next to me
+And I realize the blame is on me
+'Cause I knew you were trouble when you walked in
+So shame on me now
+Flew me to places I'd never been
+'Til you put me down, oh
+I knew you were trouble when you walked in
+So, shame on me now
+Flew me to places I'd never been
+Now I'm lying on the cold hard ground
+Oh, oh (trouble, trouble, trouble)
+Oh, oh (trouble, trouble, trouble)
+No apologies, he'll never see you cry
+Pretends he doesn't know that he's the reason why
+You're drowning, you're drowning, you're drowning-ing-ing-ing-ing
+And I heard you moved on from whispers on the street
+A new notch in your belt is all I'll ever be
+And now I see, now I see, now I see
+He was long gone when he met me
+And I realize the joke is on me, yeah
+I knew you were trouble when you walked in (oh)
+So, shame on me now
+Flew me to places I'd never been
+'Til you put me down, oh
+I knew you were trouble when you walked in
+So shame on me now
+Flew me to places I'd never been (yeah)
+Now I'm lying on the cold hard ground
+Oh, oh, yeah (trouble, trouble, trouble)
+Oh, oh (trouble, trouble, trouble)
+And the saddest fear comes creeping in
+That you never loved me or her, or anyone, or anything, yeah
+I knew you were trouble when you walked in
+So, shame on me now
+Flew me to places I'd never been (never been)
+'Til you put me down, oh
+I knew you were trouble when you walked in (knew it right there)
+So, shame on me now (knew it right there)
+Flew me to places I'd never been (ooh)
+Now I'm lying on the cold hard ground
+Oh, oh (trouble, trouble, trouble)
+Oh, oh (trouble, trouble, trouble)
+I knew you were trouble when you walked in (trouble, trouble, trouble)
+I knew you were trouble when you walked in (trouble, trouble, trouble)
+
+<a href="hhttps://www.youtube.com/watch?v=vNoKguSdy4Y">LISTEN ON YOUTUBE : I KNEW YOU WERE TROUBLE</a>
+
+11. ANTI HERO
+
+(I'm the problem)
+I have this thing where I get older, but just never wiser
+Midnights become my afternoons
+When my depression works the graveyard shift
+All of the people I've ghosted stand there in the room
+I should not be left to my own devices
+They come with prices and vices
+I end up in crisis (tale as old as time)
+I wake up screaming from dreaming
+One day I'll watch as you're leaving
+'Cause you got tired of my scheming (for the last time)
+It's me, hi
+I'm the problem, it's me
+At teatime, everybody agrees
+I'll stare directly at the sun, but never in the mirror
+It must be exhausting always rooting for the anti-hero
+(Always rooting for the anti-hero)
+Sometimes, I feel like everybody is an art bro lately
+And I just judge them on a hill
+Too hurt to hang out
+Talking shit about your famous baby
+Pierced through the heart of 90's guilt (maybe I'm the problem, it's me)
+Did you hear my covert narcissism?
+I disguise as altruism
+Like some kind of congressman (Taylor, you'll be fine)
+I wake up screaming from dreaming
+One day I'll watch as you're leaving
+And life will lose all its meaning (for the last time)
+It's me (me), hi (hi)
+I'm the problem, it's me (I'm the problem, it's me)
+At teatime (teatime), everybody agrees
+I'll stare directly at the sun, but never in the mirror
+It must be exhausting always rooting for the anti-hero
+(Always rooting for the anti-hero)
+I have this dream my daughter-in-law kills me for the money
+She thinks I left them in the will
+The family gathers around and reads it
+And then someone screams out
+"She's laughing up at us from hell!"
+I'm the problem, it's me (yeah)
+(I'm the problem, it's me)
+It's me, hi
+I'm the problem, it's me (I'm the problem, it's me)
+At teatime, everybody agrees (everybody agrees)
+I'll stare directly at the sun, but never in the mirror
+It must be exhausting always rooting for the anti-hero
+Always rooting for the anti-hero
+Always rooting for the anti-hero
+(Always rooting for the anti-hero)
+(Always rooting for the anti-hero)
+(Rooting for the anti-hero)
+(Rooting for the anti-hero)
+(Rooting for the anti-hero)
+
+
+<a href="https://upload.wikimedia.org/wikipedia/en/a/a4/Anti-Hero_by_Taylor_Swift_%28audio%29.ogg" target="_blank"> SAMPLE AUIDO: ANTI HERO</a>
+        <a href="https://www.youtube.com/watch?v=b1kbLwvqugk">LISTEN ON YOUTUBE : ANTI HERO</a>
+
+12. KARMA
+
+You're talking shit for the hell of it
+Addicted to betrayal, but you're relevant
+You're terrified to look down
+'Cause if you dare, you'll see the glare
+Of everyone you burned just to get there
+It's coming back around
+
+[Pre-Chorus]
+And I keep my side of the street clean
+You wouldn't know what I mean
+[Chorus]
+'Cause karma is my boyfriend
+Karma is a god
+Karma is the breeze in my hair on the weekend
+Karma's a relaxing thought
+Aren't you envious that for you it's not?
+Sweet like honey, karma is a cat
+Purring in my lap 'cause it loves me
+Flexing like a goddamn acrobat
+Me and karma vibe like that
+
+[Verse 2]
+Spiderboy, king of thieves
+Weave your little webs of opacity
+My pennies made your crown
+Trick me once, trick me twice
+Don't you know that cash ain't the only price?
+It's coming back around
+
+[Pre-Chorus]
+And I keep my side of the street clean
+You wouldn't know what I mean
+
+[Chorus]
+'Cause karma is my boyfriend
+Karma is a god
+Karma is the breeze in my hair on the weekend
+Karma's a relaxing thought
+Aren't you envious that for you it's not?
+Sweet like honey, karma is a cat
+Purring in my lap 'cause it loves me
+Flexing like a goddamn acrobat
+Me and karma vibe like that
+You might also like
+Labyrinth
+Taylor Swift
+You’re On Your Own, Kid
+Taylor Swift
+Bejeweled
+Taylor Swift
+[Bridge]
+Ask me what I learned from all those years
+Ask me what I earned from all those tears
+Ask me why so many fade, but I'm still here
+(I'm still here, I'm still here)
+
+[Breakdown]
+'Cause karma is the thunder
+Rattling your ground
+Karma's on your scent like a bounty hunter
+Karma's gonna track you down
+Step by step, from town to town
+Sweet like justice, karma is a queen
+Karma takes all my friends to the summit
+Karma is the guy on the screen
+Coming straight home to me
+
+[Chorus]
+'Cause karma is my boyfriend (Karma is my boyfriend)
+Karma is a god
+Karma is the breeze in my hair on the weekend (Weekend)
+Karma's a relaxing thought
+Aren't you envious that for you it's not?
+Sweet like honey, karma is a cat
+Purring in my lap 'cause it loves me
+Flexing like a goddamn acrobat
+Me and karma vibe like that
+[Outro]
+Karma is my boyfriend
+Karma is a god (Ah)
+Uh-huh, mm
+Karma's a relaxing thought
+
+<a href="https://www.youtube.com/watch?v=pzVYSfzNQ5Y">LISTEN ON YOUTUBE : KARMA</a>
+
+</pre>
+</div>
+<div >
+<a href="https://en.wikipedia.org/wiki/Taylor_Swift" target="_blank"><h4>More About Taylor Swift <i class='fa fa-wikipedia-w' style="font-size:20px;"></i> </h4></a>
+    
+    <a href="#"><img src="https://www.taylorswift.com/files/2022/08/favicon__1_-300x300.png" class="ribbon2" style="height:30px"/></a>
+    <table>
+        <nav>
+            <tr><td><a href="#About"> About Taylor Swift</a></td></tr>
+            <tr><td><a href="#Albums"> Taylor Swift Albums </a><td></tr>
+            <tr><td><a href="#spotifytracks"> Taylor Swift Spotify Tracks</a><td></tr>
+            <tr><td><a href="#images"> Taylor Swift Images</a><td></tr>
+            <tr><td><a href="#myfavouritesfromeachalbum"> My Favourites From Taylor Swift Each Albums </a><td></tr>
+            <tr><td><a href="#FavouriteLyrics"> My Taylor Swift Favourite Lyrics</a><td></tr>
+            <tr><td><a href="#">Go To Top</a><td></tr>
+        </nav>
+    </table>
+</div>
+<div>
+    <h1>This Complete Code Link 
+
+        <a href="https://code.sololearn.com/WM90JG1470g1" target="_blank">ClickHere</a>
+    </h1>
+</div>
+<div>
+    <center>
+	
+        <a href="https://www.taylorswift.com/" class="fa fa-globe"></a>
+        <a href="https://www.facebook.com/TaylorSwift" class="fa fa-facebook"></a>
+        <a href="https://twitter.com/taylorswift13" class="fa fa-twitter"></a>
+        <a href="https://www.google.com/search?q=taylor+swift" class="fa fa-google"></a>
+        <a href="https://www.youtube.com/taylorswift" class="fa fa-youtube-play"></a>
+        <a href="https://www.instagram.com/taylorswift/" class="fa fa-instagram"></a>
+        <a href="https://snapchat.com/add/taylorswift" class="fa fa-snapchat-ghost"></a>
+        <a href="https://en.wikipedia.org/wiki/Taylor_Swift" class='fa fa-wikipedia-w' style="background:#ffffff;"></a>
+        <a href="https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02" class="fa fa-spotify"></a>
+        <a href="https://soundcloud.com/taylorswiftofficial" class='fa fa-soundcloud' style='color: red'></a>
+        <a href="https://music.apple.com/us/artist/taylor-swift/159260351" class="fa fa-apple"></a>
+        <a href="https://www.amazon.com/music/player/artists/B00157GJ20/taylor-swift" class='fa fa-amazon' style='color: white'></a>
+        <a href="https://music.youtube.com/channel/UCPC0L1d253x-KuMNwa05TpA" class="fa youtube-music"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="IconChangeColor" height="30" width="30"><title>YouTube Music</title><path d="M12 0C5.376 0 0 5.376 0 12s5.376 12 12 12 12-5.376 12-12S18.624 0 12 0zm0 19.104c-3.924 0-7.104-3.18-7.104-7.104S8.076 4.896 12 4.896s7.104 3.18 7.104 7.104-3.18 7.104-7.104 7.104zm0-13.332c-3.432 0-6.228 2.796-6.228 6.228S8.568 18.228 12 18.228s6.228-2.796 6.228-6.228S15.432 5.772 12 5.772zM9.684 15.54V8.46L15.816 12l-6.132 3.54z" id="mainIconPathAttribute" filter="url(#shadow)" fill="#ff0000" stroke-width="0" stroke="#ff0000"></path><filter id="shadow"><feDropShadow id="shadowValue" stdDeviation="0" dx="0" dy="0" flood-color="black"></feDropShadow></filter><filter id="shadow"><feDropShadow id="shadowValue" stdDeviation=".5" dx="0" dy="0" flood-color="black"></feDropShadow></filter><filter id="shadow"><feDropShadow id="shadowValue" stdDeviation=".5" dx="0" dy="0" flood-color="black"></feDropShadow></filter></svg></a>
+        <a href="https://www.imdb.com/name/nm2357847/" class='fa fa-imdb' style='color: #ffffff'></a>
+        <a href="https://www.taylorswift.com/"><img src="https://www.taylorswift.com/files/2022/08/favicon__1_-300x300.png" class="ribbon2" style="height:25px"/></a>
+        <a href="#" class='fa fa-arrow-up' style='color: #8F3A84'></a>
+    </center>
+</div>
+<div onload=todayDate()>
+<footer id="down">
+      <strong>&copy; <em id="date"></em><a href="https://www.sololearn.com/profile/19086848">NARALA JITHENDRA </a></strong>
+      <a href="https://www.sololearn.com/profile/19086848" class='fa fa-user-circle' style='color:#6a695c'></a>
+</footer>
+<!--<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="https://www.taylorswift.com/files/2022/08/favicon__1_-300x300.png" type="image/x-icon">
+<link rel="icon" type="image/png" href="https://www.taylorswift.com/files/2022/08/favicon__1_-300x300.png">-->
+<img align="bottom" src="https://www.taylorswift.com/files/2022/08/favicon__1_-300x300.png" class="ribbon" style="height:60px"/>
+</div>
+<!--
+<body>
+
+<video autoplay muted loop id="myVideo">
+  <source src="https://cache.umusic.com/_sites/_halo/zrskt/nwff/mdan.mp4" data-media="(max-width: 600px)" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+<div class="content">
+  <h1>Heading</h1>
+  <p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur. Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei. Id qui nemore latine molestiae, ad mutat oblique delicatissimi pro.</p>
+  <button id="myBtn" onclick="myFunction()">Pause</button>
+</div>
+<script>
+var video = document.getElementById("myVideo");
+var btn = document.getElementById("myBtn");
+
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}
+</script>
+-->
+<div>
+<video  width="300" controls>
+<source src="C:\Users\jithe\Videos\Captures\Taylor Swift - ME! (feat. Brendon Urie of Panic! At The Disco) ft. Brendon Urie - YouTube - Profile 1 - Microsoft​ Edge 2023-01-20 16-50-03.mp4" type="video/mp4"></video>
+
+<video  width="300" controls>
+<source src="C:\Users\jithe\Videos\Captures\Taylor Swift - Anti-Hero - YouTube and 3 more pages - Profile 1 - Microsoft​ Edge 2022-12-31 20-49-17.mp4" type="video/mp4"></video>
+
+<video  width="300" controls>
+<source src="C:\Users\jithe\Videos\Captures\Taylor Swift - Anti-Hero - YouTube - Profile 1 - Microsoft​ Edge 2023-01-03 16-22-01.mp4" type="video/mp4"></video>
+
+<video  width="300" controls>
+<source src="C:\Users\jithe\Videos\Captures\Taylor Swift - Bejeweled (Official Music Video) - YouTube and 3 more pages - Profile 1 - Microsoft​ Edge 2022-12-31 21-15-03.mp4" type="video/mp4"></video>
+
+<video  width="300" controls>
+<source src="C:\Users\jithe\Videos\Captures\Taylor Swift - End Game ft. Ed Sheeran, Future - YouTube and 3 more pages - Profile 1 - Microsoft​ Edge 2022-12-31 21-17-01.mp4" type="video/mp4"></video>
+
+<video  width="300" controls>
+<source src="C:\Users\jithe\Videos\Captures\Taylor Swift - willow (Official Music Video) - YouTube and 1 more page - Profile 1 - Microsoft​ Edge 2023-01-01 17-04-00.mp4" type="video/mp4"></video>
+
+<video  width="300" loop controls >
+<source src="C:\Users\jithe\Videos\Captures\Taylor Swift - You Need To Calm Down - YouTube - Profile 1 - Microsoft​ Edge 2023-01-20 16-37-39.mp4" type="video/mp4"></video>
+
+<video width="300" controls>
+<source src="C:\Users\jithe\Videos\Captures\Taylor Swift - Look What You Made Me Do - YouTube and 2 more pages - [InPrivate] - Microsoft​ Edge 2023-01-21 14-36-22.mp4" type="video/mp4">
+</video>
+
+<video width="300" controls>
+<source src="https://cache.umusic.com/_sites/_halo/zrskt/nwff/mdan.mp4" type="video/mp4"></video>
+
+<video width="300" autoplay controls>
+<source src="C:\Users\jithe\Videos\Captures\Empire State Building on Twitter_ _HAPPY BIRTHDAY TAYLOR SWIFT https___t.co_DUyDXq1cSl_ _ Twitter - [InPrivate] - Microsoft​ Edge 2023-01-31 17-38-39.mp4"></video>
+
+<video width="300" controls>
+<source src="C:\Users\jithe\Videos\Captures\Taylor Swift - Lavender Haze (Official Music Video) - YouTube and 1 more page - [InPrivate] - Microsoft​ Edge 2023-03-24 15-41-32.mp4"></video>
+
+<video width="300"  controls>
+<source src="C:\Users\jithe\Videos\Captures\Taylor Swift - Lavender Haze (Official Music Video) - YouTube and 1 more page - [InPrivate] - Microsoft​ Edge 2023-03-24 15-42-47.mp4"></video>
+
+<video width="300"  controls>
+<source src="C:\Users\jithe\Videos\Captures\Taylor Swift - Delicate - YouTube and 1 more page - [InPrivate] - Microsoft​ Edge 2023-03-24 15-49-26.mp4"></video>
+
+<video width="300"  controls>
+<source src="C:\Users\jithe\Videos\Captures\Taylor Swift_ The Eras Tour (@TSTheErasTour) _ Twitter - Google Chrome 2023-03-16 21-22-40.mp4"></video>
+
+<video width="300"  controls>
+<source src="C:\Users\jithe\Videos\Captures\Family guy_ Taylor Swift - YouTube and 2 more pages - [InPrivate] - Microsoft​ Edge 2023-02-19 11-44-22.mp4"></video>
+
+
+
+</div>
+<div class="Hero_container__HKtqF">
+			<button aria-label="Use Debut color scheme" class="Hero_imageButton__lFXXC" data-projection-id="70" style="opacity: 1; width: 7.22222%;"><img src="https://assets.dmi.umgapps.com/assets/taylor-swift/tour-site/landing-images/1.jpg" draggable="false" data-projection-id="71"></button>
+			<button aria-label="Use Fearless color scheme" class="Hero_imageButton__lFXXC" data-projection-id="72" style="opacity: 1; width: 7.22222%;"><img src="https://assets.dmi.umgapps.com/assets/taylor-swift/landing-images/1678544276252-2-v2.jpg" draggable="false" data-projection-id="73"></button>
+			<button aria-label="Use Speak Now color scheme" class="Hero_imageButton__lFXXC" data-projection-id="74" style="opacity: 1; width: 7.22222%;"><img src="https://assets.dmi.umgapps.com/assets/taylor-swift/tour-site/landing-images/3.jpg" draggable="false" data-projection-id="75"></button>
+			<button aria-label="Use Red color scheme" class="Hero_imageButton__lFXXC" data-projection-id="76" style="opacity: 1; width: 7.22222%;"><img src="https://assets.dmi.umgapps.com/assets/taylor-swift/tour-site/landing-images/4.jpg" draggable="false" data-projection-id="77"></button>
+			<button aria-label="Use 1989 color scheme" class="Hero_imageButton__lFXXC" data-projection-id="78" style="opacity: 1; width: 7.22222%;"><img src="https://assets.dmi.umgapps.com/assets/taylor-swift/tour-site/landing-images/5.jpg" draggable="false" data-projection-id="79"></button>
+			<button aria-label="Use Reputation color scheme" class="Hero_imageButton__lFXXC" data-projection-id="80" style="opacity: 1; width: 7.22222%;"><img src="https://assets.dmi.umgapps.com/assets/taylor-swift/tour-site/landing-images/6.jpg" draggable="false" data-projection-id="81"></button>
+			<button aria-label="Use Lover color scheme" class="Hero_imageButton__lFXXC" data-projection-id="82" style="opacity: 1; width: 7.22222%;"><img src="https://assets.dmi.umgapps.com/assets/taylor-swift/tour-site/landing-images/7.jpg" draggable="false" data-projection-id="83"></button>
+			<button aria-label="Use Folklore color scheme" class="Hero_imageButton__lFXXC" data-projection-id="84" style="opacity: 1; width: 35%;"><img src="https://assets.dmi.umgapps.com/assets/taylor-swift/tour-site/landing-images/8.jpg" draggable="false" data-projection-id="85"></button>
+			<button aria-label="Use Evermore color scheme" class="Hero_imageButton__lFXXC" data-projection-id="86" style="opacity: 1; width: 7.22222%;"><img src="https://assets.dmi.umgapps.com/assets/taylor-swift/landing-images/1678544281122-9-v2.jpg" draggable="false" data-projection-id="87"></button>
+			<button aria-label="Use Use Midnights color scheme" class="Hero_imageButton__lFXXC" data-projection-id="88" style="opacity: 1; width: 7.22222%;"><img src="https://assets.dmi.umgapps.com/assets/taylor-swift/tour-site/landing-images/10.jpg" draggable="false" data-projection-id="89"></button>
+			</div>
+</div>
+</body>
+</html>

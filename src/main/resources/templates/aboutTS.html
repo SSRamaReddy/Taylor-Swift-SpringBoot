@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel = "icon" href = "https://www.taylorswift.com/files/2022/08/favicon__1_-78x75.png" type = "image/x-icon" sizes = "32x32">
+<title>Taylor Swift-About</title>
+<style>
+body{
+	/*background:url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.6Isa7cddjxqE7rRY79K7-gHaEK%26pid%3DApi&f=1&ipt=91d7ce84a5cba0cb3e1c836c64b010b620820ca699641249fda570d54e9e0619&ipo=images);*/
+	/*background:url(https://assets.vogue.com/photos/6358002d8e93a0413a14fa26/16:9/w_640,c_limit/00-promo.gif);*/
+	/*background:url(https://assets.vogue.com/photos/5891acf38c64075803ad1d2d/master/w_1600,c_limit/Taylor_Gif_01.gif);*/
+	/*background:url("https://assets.vogue.com/photos/5d49c4bbf16fe10009ce1ca9/16:9/w_640,c_limit/00-taylor-promo%20(1).gif");*/
+	/*background:url(https://assets.vogue.com/photos/630cfb1fac9e86a466f338ad/master/w_960,c_limit/00-story-1.gif);*/
+	background:url(https://assets.vogue.com/photos/58914f1e58aa89a00d542a0b/1:1/w_354%2Cc_limit/holding-600-600-taylor-swift-party-host-roundup.gif);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+  	background-size: 100% 100%;
+  	font-size:25px;
+  	
+}
+pre{
+	color:mistyrose;
+}
+header{
+font-size:45px;
+}
+.taylorswift:hover{
+-webkit-text-stroke:3px #ff6fff;
+color:transparent;
+transition:0.5s;
+}
+footer{
+color:pink;
+}
+#Btn1{
+	bottom: 207px;
+	position: fixed;
+	right: 5px;
+    z-index: 90;
+    font-size: 10px;
+    border: none;
+    outline: none;
+    background-color: mintcream;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    text-align: center;
+}
+#Btn1:hover {
+  background-color: hotpink;
+}
+#Btn2{
+	bottom: 159px;
+	position: fixed;
+	right: 5px;
+    z-index: 90;
+    font-size: 10px;
+    border: none;
+    outline: none;
+    background-color: mintcream;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    text-align: center;
+}
+#Btn2:hover {
+  background-color: hotpink;
+}
+#Btn3{
+	bottom: 111px;
+	position: fixed;
+	right: 5px;
+    z-index: 90;
+    font-size: 10px;
+    border: none;
+    outline: none;
+    background-color: mintcream;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    text-align: center;
+}
+#Btn3:hover {
+  background-color: hotpink;
+}
+#Btn4{
+	bottom: 63px;
+	position: fixed;
+	right: 5px;
+    z-index: 90;
+    font-size: 10px;
+    border: none;
+    outline: none;
+    background-color: mintcream;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    text-align: center;
+}
+#Btn4:hover {
+  background-color: hotpink;
+}
+#Btn5{
+	bottom: 15px;
+	position: fixed;
+	right: 5px;
+    z-index: 90;
+    font-size: 10px;
+    border: none;
+    outline: none;
+    background-color: mintcream;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    text-align: center;
+}
+#Btn5:hover {
+  background-color: hotpink;
+}
+
+#TsBtn {
+  /*display: none;*/
+  position: fixed;
+  bottom: 555px;
+  right: 5px;
+  z-index: 90;
+  font-size: 10px;
+  border: none;
+  outline: none;
+  /*background-color: ;*/
+  color: white;
+  cursor: pointer;
+  padding: 1px;
+  border-radius: 1px;
+}
+
+#TsBtn:hover {
+  background-color: hotpink;
+}
+</style>
+<!--<script type="text/javascript" src="C:\Users\jithe\Downloads\Wipro codes\New Eclipse\Collection Workspace\Taylor Swift\Taylor-Swift\src\main\resources\templates\TaylorSwift.js">
+</script>-->
+<script>
+	function caliculateAge(){
+					const dob= new Date("1989-12-13");
+					const now= new Date();
+					let y= now.getFullYear()-dob.getFullYear();
+					let m= now.getMonth()-dob.getMonth();
+					let d= now.getDate()-dob.getDate();
+					if(m<0 || (m==0 && d<0)){
+						y--;
+						m+=12;
+					}
+					if(d<0){
+						m--;
+						d+=new Date(now.getFullYear(),now.getMonth(),0).getDate();
+
+					}
+					const tsb=now-dob;
+					const dsb=Math.floor(tsb/(1000*60*60*24));
+					const msb=m+(y*12);
+					const mnsb=Math.floor(tsb/(1000*60));
+					const ssb=Math.floor(tsb/(1000));
+					//document.getElementById("dob").textContent+=dob.toDateString();
+					//document.getElementById("dob").textContent+="( ("+`${y} years, ${m} months, and ${d} days`+"), ("+ dsb+" Days"+"), ("+msb+" Months"+"), ("+mnsb+" Minutes"+"), ("+ssb+" Seconds"+")";
+					document.getElementById("cpr").textContent+=" "+`${now.getFullYear()}`+" Narala Jithendra";
+				}
+</script>
+</head>
+<body onload="caliculateAge()">
+<header class="taylorswift" style="color:mintcream;">
+	<center>
+		<i><b>About Taylor Swift</b></i>
+	</center>
+</header>
+<div>
+<pre>
+<br>
+<br>
+<!-- <p id="About">About Taylor Swift<p>  -->
+Full Name:<i>"Taylor Alison Swift"</i>
+Other Name:<i> Nils Sjöberg</i>
+Date Of Birth: Dec 13, 1989 (age 33)
+Height: 5 feet 10 inches (1.78 m)
+Occupation: Singer-songwriter, Producer, Director, Actress, Businesswoman
+<center></center>
+</pre>
+<div id="TsBtn">
+<img src="https://www.taylorswift.com/files/2022/08/favicon__1_-78x75.png" style="width:30px;"/>
+</div>
+<br>
+<br>
+<br>
+<div class="btn-group" id="btn-group">
+	<dialog>
+
+            <h1>Taylor Swift-Home</h1>
+
+            <img src="https://www.wipro.com/content/dam/nexus/staticsites/homepage/header/Wipro_Primary%20Logo_Color_RGB.svg" />
+
+            <footer>
+				<!--  <a href="/TaylorSwift" style="color:black; font-size:15px; width:48px;" id="Btn1"> Home</a>-->
+                <a href="/TaylorSwift"><button id="closeBtn" > Home</button></a>
+
+            </footer>
+
+        </dialog>
+	<button id="openBtn">Open</button>
+	
+	<a href="/TaylorSwift/Albums" style="color:black; font-size:15px;" id="Btn2"> Albums</a>
+	<a href="/TaylorSwift/Images" style="color:black; font-size:15px; width:47px;" id="Btn3"> Images</a>
+	<a href="/TaylorSwift/SampleAudio" style="color:black; font-size:15px; width:47px;" id="Btn4"> Audio</a>
+	<a href="/TaylorSwift/SpotifyTracks" style="color:black; font-size:15px; width:47px;" id="Btn5"> <abbr title="Spotify Tracks">Tracks</abbr></a>
+</div>
+<ol id="homepagesound" style="display:none">
+	<li>
+		<audio controls autoplay>
+			<source src="https://upload.wikimedia.org/wikipedia/en/a/a4/Anti-Hero_by_Taylor_Swift_%28audio%29.ogg" type="audio/ogg">
+		</audio>
+	</li>
+</ol>
+<center>
+<footer id="cpr" onload="caliculateAge()">
+	<br>
+	<center>&copy; </center>
+</footer>
+</center>
+<script>
+	const d=document.querySelector('dialog');
+    const ob=document.querySelector('#openBtn');
+    const cb=document.querySelector('#closeBtn');
+    ob.addEventListener('click',() => d.showModal());
+    cb.addEventListener('click',() => d.show());
+</script>
+</body>
+</html>
+
+
+
+        
+
+        
